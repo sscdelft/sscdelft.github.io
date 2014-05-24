@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Project baNaNa
+title: Contact
 ---
 
-See the [Project baNaNa] website.
-
-[Project baNaNa]: http://projectbanana.github.io
+Please [email us](mailto:m.m.baumann@tudelft.nl)!

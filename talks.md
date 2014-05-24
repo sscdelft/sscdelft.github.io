@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Project baNaNa
+title: Talks and scientific events
 ---
 
-See the [Project baNaNa] website.
-
-[Project baNaNa]: http://projectbanana.github.io
+tea talks, etc...

@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Project baNaNa
+title: Who are we?
 ---
 
-See the [Project baNaNa] website.
-
-[Project baNaNa]: http://projectbanana.github.io
+Pics of board
