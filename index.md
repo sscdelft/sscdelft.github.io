@@ -3,4 +3,6 @@ layout: default
 title: About
 ---
 
-About the SIAM Student Chapter Delft.
+This page is currently under construction.
+
+![pic](/images/todo.jpg)
