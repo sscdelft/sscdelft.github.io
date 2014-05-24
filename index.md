@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Welcome!
 ---
 
 This page is currently under construction.
