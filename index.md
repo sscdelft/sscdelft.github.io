@@ -5,4 +5,4 @@ title: About
 
 This page is currently under construction.
 
-![pic](/images/todo.jpg)
+![pic](/images/todo.png)
