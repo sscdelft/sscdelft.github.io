@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: Join us!
 ---
 
 Please [email us](mailto:m.m.baumann@tudelft.nl)!
