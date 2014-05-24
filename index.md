@@ -3,6 +3,4 @@ layout: default
 title: About
 ---
 
-<p>
 About the SIAM Student Chapter Delft.
-</p>
