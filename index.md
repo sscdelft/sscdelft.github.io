@@ -3,7 +3,7 @@ layout: default
 title: Welcome!
 ---
 
-This page is currently under construction.
+We started our [SIAM student chapter] in 2014.
 
 + bla
 + blabla
@@ -12,3 +12,4 @@ This page is currently under construction.
 
 
 
+[SIAM student chapter]: https://www.siam.org/students/chapters/
