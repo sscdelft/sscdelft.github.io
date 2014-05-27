@@ -3,4 +3,13 @@ layout: default
 title: Social events
 ---
 
-Pics of bbq and bowling.
+BBQ at Delft lake
+===
+
+text and pics
+
+
+Bowling event
+===
+
+text and pics
