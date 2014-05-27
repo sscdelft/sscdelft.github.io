@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Talks and scientific events
+title: Tea Talks by the Numerical Analysis group in 2014
 ---
 
-Tea Talks by the Numerical Analysis group in 2014
-===
 
 This page contains the schedule and the material of the tea talks
 given by members of the Numerical Analysis group at the Delft
