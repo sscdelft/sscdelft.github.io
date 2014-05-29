@@ -15,4 +15,4 @@ text and pics
 Bowling event
 ===
 
-![SIAM Student Chapter bowling night](/images/.IMG_20131024_195424.jpg)
+![SIAM Student Chapter bowling night](/images/bowling/IMG_20131024_195424.jpg)
