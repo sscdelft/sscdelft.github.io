@@ -7,8 +7,11 @@ The board
 =========
 
 President: [Manuel Baumann]
+
 Vice President: [Reinaldo Astudillo]
+
 Secretary and Treasurer: Thea Vuik
+
 Webmaster: Joost van Zwieten
 
 
