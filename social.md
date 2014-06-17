@@ -8,8 +8,7 @@ Informal meetings are also an important part of the SIAM student chapters. This 
 BBQ at Delft lake
 ===
 
-text and pics
-
+![SIAM Student Chapter BBQ](/images/bbq/main.jpg)
 
 
 Bowling event
