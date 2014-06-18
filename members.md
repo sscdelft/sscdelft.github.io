@@ -3,8 +3,10 @@ layout: default
 title: Who are we?
 ---
 
-The board
-=========
+The student chapter is open for everyone at TU Delft with an interest in applied mathematics.
+
+The board 2014-2015
+===================
 
 President: [Manuel Baumann]
 <!-- <img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/>  --> 
