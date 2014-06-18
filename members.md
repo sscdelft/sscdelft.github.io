@@ -7,7 +7,7 @@ The board
 =========
 
 President: [Manuel Baumann]
-#<img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/> 
+<!-- <img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/>  --> 
 
 Vice President: [Reinaldo Astudillo]
 
