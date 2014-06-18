@@ -6,10 +6,13 @@ title: Who are we?
 The board
 =========
 
-<img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/> President: [Manuel Baumann]
+President: [Manuel Baumann]
+
 Field of work:
 * bla
 * blala
+
+<img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/> 
 
 Vice President: [Reinaldo Astudillo]
 
