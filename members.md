@@ -6,6 +6,10 @@ title: Who are we?
 The board
 =========
 
+
+| <img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/>  | manuel      |
+| <img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/>  | are neat      |
+
 President: [Manuel Baumann]
 
 Field of work:
