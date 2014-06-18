@@ -6,7 +6,7 @@ title: Who are we?
 The board
 =========
 
-![Manuel](images/manuel.jpg =50x10) President: [Manuel Baumann]
+![](images/manuel.jpg =50x10) President: [Manuel Baumann]
 
 Vice President: [Reinaldo Astudillo]
 
