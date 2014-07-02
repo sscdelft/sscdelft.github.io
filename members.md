@@ -16,7 +16,7 @@ President: [Manuel Baumann]
 ---------------------------
 
 Hi! My name is Manuel and I am a PhD student of Martin van Gijzen. My research is in the field of numerical linear algebra, but I am also interested in model order reduction and optimal control.
-I like beer and girls. If you are one of them, please [email me](mailto:M.M.Baumann@tudelft.nl).
+Besides math, I like tennis and skying as well as travaling. My last vacation was in China (see right). You can best contact me via [email](mailto:M.M.Baumann@tudelft.nl).
 
 Vice President: [Reinaldo Astudillo]
 ---------------------------
