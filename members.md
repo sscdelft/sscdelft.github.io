@@ -10,8 +10,9 @@ The board 2014-2015
 ===================
 
 ### President: [Manuel Baumann]
-<!-- <img src="images/manuel.jpg" alt="Drawing" style="width: 150px;"/>  -->
-email to [M.M.Baumann@tudelft.nl](mailto:M.M.Baumann@tudelft.nl).
+<img align="right" src="images/manuel.jpg" height="150" />
+Hi! My name is Manuel and I am a PhD student of Martin van Gijzen. My research is in the field of numerical linear algebra, but I am also interested in model order reduction and optimal control.
+I like beer and girls. If you are one of them, please [email me](mailto:M.M.Baumann@tudelft.nl).
 
 ### Vice President: [Reinaldo Astudillo]
 email to [R.A.Astudillo@tudelft.nl](mailto:R.A.Astudillo@tudelft.nl).
