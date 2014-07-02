@@ -11,14 +11,12 @@ We started our [SIAM student chapter] in 2014 based on a group of PhD students o
 
 Our Faculty Advisors are [Kees Vuik] and [Martin van Gijzen].
 
+![members of the SIAM Student Chapter Delft](/images/group.jpg)
+
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b4281605a00950"></script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_horizontal_follow_toolbox"></div>
-
-
-
-![members of the SIAM Student Chapter Delft](/images/group.jpg)
 
 [SIAM student chapter]: https://www.siam.org/students/chapters/
 [Kees Vuik]: http://ta.twi.tudelft.nl/users/vuik/
