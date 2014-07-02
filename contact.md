@@ -12,6 +12,5 @@ Our goal is to connect TU Delft PhD students from applied mathematics and comput
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_horizontal_follow_toolbox"></div>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b4281605a00950"></script>
+
 
