@@ -7,10 +7,11 @@ Our goal is to connect TU Delft PhD students from applied mathematics and comput
 
 
 
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-</div>
-<script type="text/javascript" src="//static.addtoany.com/menu/page2.js"></script>
-<!-- AddToAny END -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b4281605a00950"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_horizontal_follow_toolbox"></div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b4281605a00950"></script>
+
