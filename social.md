@@ -3,7 +3,7 @@ layout: default
 title: Social events
 ---
 
-Informal meetings are also an important part of the SIAM student chapters. This includes visiting math-related companies as well as social events such as BBQ and coffee chats.
+Informal meetings are also an important part of the SIAM student chapters. This includes visiting math-related companies as well as social events such as BBQ and coffee chats. We collected a few pictures below.
 
 BBQ at Delft lake
 ===
