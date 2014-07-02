@@ -23,7 +23,7 @@ Besides math, I like tennis and skying as well as traveling. My last vacation wa
 Vice President: [Reinaldo Astudillo]
 ---------------------------
 
-Hi! My name is Reinaldo and my Co-promotor and daily supervisor is dr.ir. Martin van Gijzen. My promotor is Prof dr.ir. Kess Vuik and my interest is Numerical linear algebra in general, focus on Krylov subspace methods, spectra and pseduspectra computations, linear systems, preconditioning. You can best contact me via [email](mailto:R.A.Astudillo@tudelft.nl).
+Hello all! I'm Reinaldo and my Co-promotor and daily supervisor is dr.ir. Martin van Gijzen. My promotor is Prof dr.ir. Kess Vuik and my interest is Numerical linear algebra in general, focus on Krylov subspace methods, spectra and pseduspectra computations, linear systems, preconditioning. The best way to contact me is via [email](mailto:R.A.Astudillo@tudelft.nl).
 
 
 <img align="right" src="images/thea.jpg" height="150" />
@@ -31,7 +31,7 @@ Hi! My name is Reinaldo and my Co-promotor and daily supervisor is dr.ir. Martin
 Secretary and Treasurer: Thea Vuik 
 ---------------------------
 
-My name is Thea Vuik and I am the first secretary and treasure of the first SIAM Student Chapter in The Netherlands, at Delft University of Technology. In addition to this honourable task, I am a PhD student, working with Dr. Jennifer Ryan. My research focuses on the detection of shocks and discontinuities in discontinuous Galerkin schemes, using a multiwavelet decomposition. If you have any questions about my research or the SIAM Student Chapter, don't hesitate to ask me! You can reach me by sending an email to [M.J.Vuik@tudelft.nl](mailto:M.J.Vuik@tudelft.nl).
+My name is Thea Vuik and I am the first secretary and treasure of the first SIAM Student Chapter in The Netherlands, at Delft University of Technology. In addition to this honourable task, I am a PhD student, working with Dr. Jennifer Ryan. My research focuses on the detection of shocks and discontinuities in discontinuous Galerkin schemes, using a multiwavelet decomposition. If you have any questions about my research or the SIAM Student Chapter, don't hesitate to ask me! You can reach me by sending an [email](mailto:M.J.Vuik@tudelft.nl).
 
 
 <b>Webmaster:</b> Joost van Zwieten
