@@ -23,6 +23,9 @@ Vice President: [Reinaldo Astudillo]
 
 email to [R.A.Astudillo@tudelft.nl](mailto:R.A.Astudillo@tudelft.nl).
 
+
+<img align="right" src="images/thea.jpg" height="150" />
+
 Secretary and Treasurer: Thea Vuik 
 ---------------------------
 
