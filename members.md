@@ -11,7 +11,6 @@ The board 2014-2015
 
 
 <img align="right" src="images/manuel.jpg" height="150" />
-
 President: [Manuel Baumann]
 ---------------------------
 Hi! My name is Manuel and I am a PhD student of Martin van Gijzen. My research is in the field of numerical linear algebra, but I am also interested in model order reduction and optimal control.
