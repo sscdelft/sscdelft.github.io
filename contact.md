@@ -12,5 +12,5 @@ Our goal is to connect TU Delft PhD students from applied mathematics and comput
 <a class="a2a_button_facebook"></a>
 <a class="a2a_button_twitter"></a>
 </div>
-<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+<script type="text/javascript" src="//static.addtoany.com/menu/page2.js"></script>
 <!-- AddToAny END -->
