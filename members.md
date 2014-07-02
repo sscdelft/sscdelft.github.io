@@ -11,6 +11,7 @@ The board 2014-2015
 
 
 <img align="right" src="images/manuel.jpg" height="150" />
+
 President: [Manuel Baumann]
 ---------------------------
 
