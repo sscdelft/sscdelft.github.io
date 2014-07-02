@@ -18,4 +18,4 @@ Our goal is to connect TU Delft PhD students from applied mathematics and comput
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-follow" data-href="https://www.facebook.com/siamscdelft/" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>
+<div class="fb-like" data-href="https://www.facebook.com/siamscdelft" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
