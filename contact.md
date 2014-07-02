@@ -7,4 +7,7 @@ Our goal is to connect TU Delft PhD students from applied mathematics and comput
 
 You can also follow us on twitter [@SSC_Delft].
 
+<a href="https://twitter.com/twitterapi" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @twitterapi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
 [@SSC_Delft]: https://twitter.com/SSC_Delft
