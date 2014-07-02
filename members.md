@@ -23,7 +23,8 @@ Besides math, I like tennis and skying as well as traveling. My last vacation wa
 Vice President: [Reinaldo Astudillo]
 ---------------------------
 
-I am gay. Please email to [R.A.Astudillo@tudelft.nl](mailto:R.A.Astudillo@tudelft.nl).
+Hi! My name is Reinaldo and I am a PhD student of Martin van Gijzen. My research is in the field of numerical linear algebra, but I am also interested in model order reduction and optimal control.
+Besides math, I like tennis and skying as well as traveling. My last vacation was in China (see right). You can best contact me via [R.A.Astudillo@tudelft.nl](mailto:R.A.Astudillo@tudelft.nl).
 
 
 <img align="right" src="images/thea.jpg" height="150" />
