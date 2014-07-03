@@ -23,7 +23,7 @@ Besides math, I like tennis and skying as well as traveling. My last vacation wa
 Vice President: [Reinaldo Astudillo]
 ---------------------------
 
-Hello all! I'm Reinaldo and my Co-promotor and daily supervisor is dr.ir. Martin van Gijzen. My promotor is Prof dr.ir. Kess Vuik and my interest is Numerical linear algebra in general, focus on Krylov subspace methods, spectra and pseduspectra computations, linear systems, preconditioning. The best way to contact me is via [email](mailto:R.A.Astudillo@tudelft.nl) or twitter [@astudillor](https://twitter.com/astudillor).
+Hello everyone! I'm Reinaldo and my Co-promotor and daily supervisor is dr.ir. Martin van Gijzen. My promotor is Prof dr.ir. Kess Vuik and my interest is Numerical linear algebra in general, focus on Krylov subspace methods, spectra and pseduspectra computations, linear systems, preconditioning. The best way to contact me is via [email](mailto:R.A.Astudillo@tudelft.nl). My twitter account is [@astudillor](https://twitter.com/astudillor).
 
 
 <img align="right" src="images/thea.jpg" height="150" />
