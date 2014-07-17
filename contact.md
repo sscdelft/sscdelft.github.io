@@ -14,4 +14,4 @@ Our goal is to connect TU Delft PhD students from applied mathematics and comput
 
 
 
-[promotion poster]: /images/poster.pdf
+[promotion poster]: /images/poster_new.pdf
