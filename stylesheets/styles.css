@@ -994,3 +994,50 @@ footer {
     width: auto;
   }
 }
+
+
+.post
+{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.post .header
+{
+  margin-bottom: 1ex;
+}
+
+.post .title
+{
+  font-size: 16pt;
+}
+
+.post .date
+{
+  color: #bbb;
+  font-size: 10pt;
+  margin-right: 1em;
+}
+
+.pagination .previous
+{
+  float: left;
+}
+
+.pagination .next
+{
+  float: right;
+}
+
+.pagination-separator
+{
+  clear: both;
+  height: 1em;
+}
+
+.post-date
+{
+  color: #bbb;
+  font-size: 10pt;
+  margin-bottom: 1em;
+}
