@@ -1,3 +1,8 @@
 name: SIAM Student Chapter Delft
 timezone: Europe/Amsterdam
 markdown: kramdown
+paginate: 5
+
+domain: sscdelft.github.io
+author: SIAM Student Chapter Delft
+email: siamsc-ewi@tudelft.nl

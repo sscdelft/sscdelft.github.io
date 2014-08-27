@@ -1,0 +1,38 @@
+---
+layout: body
+---
+
+<section>
+
+  {% if page.previous.url or page.next.url %}
+    <div class="pagination">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" class="previous">previous post</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}" class="next">next post</a>
+      {% endif %}
+    </div>
+    <div class="pagination-separator"></div>
+  {% endif %}
+
+  <h1 class="pagetitle">{{ page.title }}</h1>
+  <div class="post-date">posted {{ page.date | date_to_string }}</div>
+  {{ content }}
+
+  {% if page.previous.url or page.next.url %}
+    <div class="pagination-separator"></div>
+    <div class="pagination">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" class="previous">previous post</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}" class="next">next post</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+</section>
+
+<!-- vim: ts=2:sts=2:sw=2:et:tw=80
+-->
