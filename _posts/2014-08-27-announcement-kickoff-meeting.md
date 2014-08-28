@@ -7,7 +7,8 @@ Hi all,
 
 We would like to announce our official Chapter Kick-off Meeting on September 19th, at 16:00 in the Dijkstrazaal (HB09.150). During the kick-off we will
 
-+ bla
-+ bla
++ Have two talk by Kees Vuik and Alex Sangers,
++ Discuss the future of the chapter,
++ Get-together and eat cake!
 
-CU there!
+We hope to see you there!
