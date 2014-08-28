@@ -7,10 +7,10 @@ layout: body
   {% if page.previous.url or page.next.url %}
     <div class="pagination">
       {% if page.previous.url %}
-        <a href="{{ page.previous.url }}" class="previous">previous post</a>
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" class="previous">previous post</a>
       {% endif %}
       {% if page.next.url %}
-        <a href="{{ page.next.url }}" class="next">next post</a>
+        <a href="{{ site.baseurl }}{{ page.next.url }}" class="next">next post</a>
       {% endif %}
     </div>
     <div class="pagination-separator"></div>
@@ -24,10 +24,10 @@ layout: body
     <div class="pagination-separator"></div>
     <div class="pagination">
       {% if page.previous.url %}
-        <a href="{{ page.previous.url }}" class="previous">previous post</a>
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" class="previous">previous post</a>
       {% endif %}
       {% if page.next.url %}
-        <a href="{{ page.next.url }}" class="next">next post</a>
+        <a href="{{ site.baseurl }}{{ page.next.url }}" class="next">next post</a>
       {% endif %}
     </div>
   {% endif %}

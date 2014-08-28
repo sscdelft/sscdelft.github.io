@@ -6,10 +6,10 @@ title: News
 {% if paginator.previous_page or pagination.next_page %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="/page{{ paginator.previous_page }}" class="previous">previous</a>
+      <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="previous">previous</a>
     {% endif %}
     {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}" class="next">next</a>
+      <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next">next</a>
     {% endif %}
   </div>
   <div class="pagination-separator"></div>
@@ -19,7 +19,7 @@ title: News
   <div class="post">
     <div class="header">
       <span class="date">{{ post.date | date_to_string }}</span>
-      <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+      <a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </div>
     <div class="content">
       {{ post.content }}
@@ -31,10 +31,10 @@ title: News
   <div class="pagination-separator"></div>
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="/page{{ paginator.previous_page }}" class="previous">previous</a>
+      <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="previous">previous</a>
     {% endif %}
     {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}" class="next">next</a>
+      <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next">next</a>
     {% endif %}
   </div>
 {% endif %}

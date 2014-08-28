@@ -9,7 +9,7 @@ The student chapter is open for everyone at TU Delft with an interest in applied
 The board 2014-2015
 ===================
 
-<img align="right" src="images/manuel_china.jpg" height="150" />
+<img align="right" src="{{ site.baseurl }}/images/manuel_china.jpg" height="150" />
 
 President: [Manuel Baumann]
 ---------------------------
@@ -18,7 +18,7 @@ Hi! My name is Manuel and I am a PhD student of Martin van Gijzen. My research i
 Besides math, I like tennis and skying as well as traveling. My last vacation was in China (see right). You can best contact me via [email](mailto:M.M.Baumann@tudelft.nl) or twitter [@ManuelMBaumann](https://twitter.com/ManuelMBaumann).
 
 
-<img align="right" src="images/reinaldo.jpg" height="150" />
+<img align="right" src="{{ site.baseurl }}/images/reinaldo.jpg" height="150" />
 
 Vice President: [Reinaldo Astudillo]
 ---------------------------
@@ -26,7 +26,7 @@ Vice President: [Reinaldo Astudillo]
 Hello everyone! I'm Reinaldo and my Co-promotor and daily supervisor is dr.ir. Martin van Gijzen. My promotor is Prof dr.ir. Kees Vuik and my interest is Numerical linear algebra in general, focus on Krylov subspace methods, spectra and pseduspectra computations, linear systems, preconditioning. The best way to contact me is via [email](mailto:R.A.Astudillo@tudelft.nl). My twitter account is [@astudillor](https://twitter.com/astudillor).
 
 
-<img align="right" src="images/thea.jpg" height="150" />
+<img align="right" src="{{ site.baseurl }}/images/thea.jpg" height="150" />
 
 Secretary and Treasurer: Thea Vuik 
 ---------------------------
