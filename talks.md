@@ -16,8 +16,7 @@ Seminar: Isogeometric Finite Elements
 
  Kickoff Meeting
 ---
-+ Organizers: SIAM Student Chapter Delft
-+ Friday 19 September 2014, Dijkstrazaal (HB09.150)
+<b> Date and place: </b> Friday 19 September 2014, Dijkstrazaal (HB09.150) <br>
 Spearkers: 
 * M. Baumann (Introduction to the student chapter).
 * C. Vuik (On mathematical modelling)
