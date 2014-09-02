@@ -12,7 +12,7 @@ Seminar: Isogeometric Finite Elements
 + Organizers: [M. Möller](mailto: M.Moller@tudelft.nl) and [T. Vuik](mailto:M.J.Vuik@tudelft.nl)
 + Starting: The seminar will take place every second Tuesday between 13:00 and 15:00. The first session will be Septemer 9 (HB 05.230, EWI building).
 + Participation is valued by 1 ECTS point per 8h attendance for PhD students.
-+ More information: [http://ta.twi.tudelft.nl/nw/users/matthias/teaching.html][http://ta.twi.tudelft.nl/nw/users/matthias/teaching.html]
++ More information: [http://ta.twi.tudelft.nl/nw/users/matthias/teaching.html](http://ta.twi.tudelft.nl/nw/users/matthias/teaching.html)
 
  Kickoff Meeting
 ---
