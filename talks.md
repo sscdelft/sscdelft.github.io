@@ -14,7 +14,7 @@ Seminar: Isogeometric Finite Elements
 + Participation is valued by 1 ECTS point per 8h attendance for PhD students.
 + More information: [http://ta.twi.tudelft.nl/nw/users/matthias/teaching.html](http://ta.twi.tudelft.nl/nw/users/matthias/teaching.html)
 
- Talk: Kickoff Meeting
+ Talk: Kickoff meeting
 ---
 Friday 19 September 2014, Dijkstrazaal (HB09.150) <br>
 Spearkers: 
