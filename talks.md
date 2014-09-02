@@ -18,4 +18,7 @@ Seminar: Isogeometric Finite Elements
 ---
 + Organizers: SIAM Student Chapter Delft
 + Friday 19 September 2014, Dijkstrazaal (HB09.150)
-+ Spearkers: M. Baumann (Introduction to the student chapter), C. Vuik (On mathematical modelling), and Alex Sangers (The eigenvectors corresponding to the second eigenvalue of the Google matrix and their relation to link spamming)
+Spearkers: 
+* M. Baumann (Introduction to the student chapter).
+* C. Vuik (On mathematical modelling)
+* Alex Sangers (The eigenvectors corresponding to the second eigenvalue of the Google matrix and their relation to link spamming)
