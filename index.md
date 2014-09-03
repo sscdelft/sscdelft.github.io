@@ -3,7 +3,7 @@ layout: default
 title: Welcome!
 ---
 
-We started our [SIAM student chapter] in 2014 based on a group of PhD students of the [Numerical Analysis department] at TU Delft. Our goal is to organize lectures on both, research and practice oriented topics. Our group mostly focuses on:
+We started our [SIAM student chapter] in 2014 based on a group of PhD candidates of the [Numerical Analysis department] at TU Delft. Our goal is to organize lectures on both, research and practice oriented topics. Our group mostly focuses on:
 
 + Numerical Analysis,
 + Scientific Computing,
