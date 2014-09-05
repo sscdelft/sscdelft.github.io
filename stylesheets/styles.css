@@ -809,30 +809,30 @@ nav {
   margin-left: -580px;
   text-align: right;
 }
-nav ul, .menu-content ul {
+nav ul {
   list-style: none;
   list-style-image: none;
   font-size: 14px;
   line-height: 24px;
 }
-nav ul li, .menu-content ul li {
+nav ul li {
   padding: 5px 0px;
   line-height: 16px;
 }
-nav ul li.tag-h1, .menu-content ul li.tag-h1 {
+nav ul li.tag-h1 {
   font-size: 1.2em;
 }
-nav ul li.tag-h1 a, .menu-content ul li.tag-h1 a {
+nav ul li.tag-h1 a {
   font-weight: bold;
   color: #333;
 }
-nav ul li.tag-h2 + .tag-h1, .menu-content ul li.tag-h2 + .tag-h1{
+nav ul li.tag-h2 + .tag-h1 {
   margin-top: 10px;
 }
-nav ul a, .menu-content ul a {
+nav ul a {
   color: #666;
 }
-nav ul a:hover, .menu-content ul a:hover {
+nav ul a:hover {
   color: #999;
 }
 
@@ -1040,96 +1040,4 @@ footer {
   color: #bbb;
   font-size: 10pt;
   margin-bottom: 1em;
-}
-
-
-
-
-.menu
-{
-  position: fixed;
-  right: 25px;
-  top: 25px;
-  z-index: 100;
-}
-
-.menu.visible, .menu:hover, .menu:active
-{
-  background: #fbfbfb;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-  border: 1px solid #cbcbcb;
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
-  -o-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
-}
-
-.menu-button
-{
-  float: right;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.menu-button-line
-{
-  width: 30px;
-  height: 5px;
-  margin: 5px;
-  background-color: #f3f3f3;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-}
-
-.menu.visible .menu-button-line, .menu:hover .menu-button-line, .menu:active .menu.button-line
-{
-  background-color: #666;
-}
-
-.menu-sep
-{
-  clear: both;
-}
-
-.menu-content
-{
-  display: none;
-  text-align: right;
-  float: right;
-  margin: 10px;
-}
-
-.menu.visible .menu-content, .menu:hover .menu-content, .menu:active .menu-content
-{
-  display: block;
-}
-
-.menu-content ul
-{
-  padding: 0px;
-  margin: 0px;
-}
-
-.menu-content ul li
-{
-  line-height: 14px;
-}
-
-@media print, screen and (max-width: 480px) {
-  .menu
-  {
-    position: absolute;
-    top: 10px;
-  }
 }
