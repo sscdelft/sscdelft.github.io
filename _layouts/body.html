@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
     <link rel="alternate" type="application/atom+xml" title="SIAM Student Chapter Delft" href="{{ site.baseurl }}/atom.xml"/>
     <script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
+    <script src="{{ site.baseurl }}/javascripts/classList.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,6 +17,11 @@
   <body>
 
     <header>
+      <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.add('visible'); event.stopPropagation();">
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+      </div>
       <h1>SIAM Student Chapter Delft</h1>
       <p>Delft University of Technology</p>
     </header>
@@ -25,9 +31,22 @@
       <a href="https://github.com/sscdelft/sscdelft.github.io" class="button fork"><strong>Fork On GitHub</strong></a>
     </div><!-- end banner -->
 
-    <nav>
-      {% include navigation.html %}
-    </nav>
+    <div id="sidebar" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
+      <div class="sidebar-background-1">
+        <div class="sidebar-background-2" onclick="event.stopPropagation();"></div>
+      </div>
+      <div class="sidebar-content" onclick="event.stopPropagation();">
+        <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
+          <div class="sidebar-button-line"></div>
+          <div class="sidebar-button-line"></div>
+          <div class="sidebar-button-line"></div>
+        </div>
+        <div class="sidebar-button-sep"></div>
+        <nav>
+          {% include navigation.html %}
+        </nav>
+      </div>
+    </div>
     <div class="wrapper">
       {{ content }}
 

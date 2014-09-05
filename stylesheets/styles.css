@@ -797,13 +797,67 @@ small {
   font-size: 12px;
 }
 
-nav {
-  width: 160px;
+#sidebar .sidebar-content {
   position: absolute;
   top: 220px;
   left: 20px;
+  width: 160px;
   text-align: right;
 }
+
+#sidebar .sidebar-button {
+  float: right;
+  display: none;
+}
+
+header .sidebar-button {
+  display: none;
+  float: left;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.sidebar-button {
+  cursor: pointer;
+}
+
+.sidebar-button-line {
+  width: 30px;
+  height: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #f3f3f3;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -ms-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  -khtml-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+.sidebar-button-line:first-child {
+  margin-top: 0px;
+}
+.sidebar-button-line:last-child {
+  margin-bottom: 0px;
+}
+
+#sidebar .sidebar-button-line {
+  background-color: #666;
+}
+
+#sidebar .sidebar-button-sep {
+  clear: both;
+  height: 25px;
+  display: none;
+}
+
 nav ul {
   list-style: none;
   list-style-image: none;
@@ -852,8 +906,47 @@ footer {
     right: 0px;
   }
 
-  nav {
+  header .sidebar-button, #sidebar .sidebar-button, #sidebar .sidebar-button-sep {
+    display: block;
+  }
+
+  #sidebar {
     display: none;
+  }
+
+  #sidebar.visible {
+    display: block;
+  }
+
+  #sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 100;
+  }
+
+  #sidebar .sidebar-background-1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0,0,0,0.75);
+  }
+
+  #sidebar .sidebar-background-2 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    background: url(../images/body-background.png) #eae6d1;
+    border: 1px solid #cbcbcb;
+  }
+
+  #sidebar .sidebar-content {
+    top: 25px;
   }
 
   .wrapper, header h1, header p, #banner {
@@ -877,6 +970,9 @@ footer {
   header {
     padding: 20px 20px;
     margin: 0;
+  }
+  header .sidebar-button {
+    margin-left: 5px;
   }
   header h1 {
     font-size: 32px;
@@ -909,6 +1005,9 @@ footer {
     position: relative;
     padding: 5px 0px;
     min-height: 0px;
+  }
+  header .sidebar-button {
+    margin-left: 20px;
   }
   header h1 {
     font-size: 24px;
