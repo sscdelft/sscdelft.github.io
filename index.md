@@ -13,10 +13,6 @@ Our Faculty Advisors are [Kees Vuik] and [Martin van Gijzen].
 
 ![members of the SIAM Student Chapter Delft]({{ site.baseurl }}/images/group.jpg)
 
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53b4281605a00950"></script>
-
-<div class="addthis_horizontal_follow_toolbox"></div>
-
 [SIAM student chapter]: https://www.siam.org/students/chapters/
 [Kees Vuik]: http://ta.twi.tudelft.nl/users/vuik/
 [Martin van Gijzen]: http://ta.twi.tudelft.nl/nw/users/gijzen/

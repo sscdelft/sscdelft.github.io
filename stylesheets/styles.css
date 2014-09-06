@@ -835,6 +835,9 @@ nav ul a, .menu-content ul a {
 nav ul a:hover, .menu-content ul a:hover {
   color: #999;
 }
+nav .social-media {
+  font-size: 32px;
+}
 
 footer {
   width: 180px;
