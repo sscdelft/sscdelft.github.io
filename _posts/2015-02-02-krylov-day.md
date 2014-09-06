@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Student Krylov Day at TU Delft, February 2nd, 2015"
+title: "Student Krylov Day @ TU Delft on February 2nd, 2015"
 ---
 
 Dear all,
