@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Talks and seminars
+navigation: 40
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project baNaNa
+navigation: 50
 ---
 
 <a href="http://projectbanana.github.io" target = "_blank"> <img align="right" src="images/banana_logo.png" height="150" /> </a>

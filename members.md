@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Who are we?"
-published: true
+navigation: 30
 ---
 
 The student chapter is open for everyone at TU Delft with an interest in applied mathematics.
