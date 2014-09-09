@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kickoff Meeting, September 19th"
+title: "Seminar: Isogeometric Finite Elements"
 ---
 
 Hi all,
