@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kickoff Meeting, September 19th"
+category: news
 ---
 
 Hi all,

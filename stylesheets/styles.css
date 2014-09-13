@@ -999,47 +999,63 @@ footer {
 }
 
 
-.post
-{
-  margin-top: 1em;
+/* posts */
+
+.post {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.post > .content {
+  margin-left: 10px;
+  padding-left: 20px;
+  border-left: 1px solid #ffcc00;
+}
+
+.post.collapsed > .content {
+  display: none;
+}
+
+.post > .header {
+  cursor: pointer;
   margin-bottom: 1em;
-}
-
-.post .header
-{
-  margin-bottom: 1ex;
-}
-
-.post .title
-{
+  margin-left: 31px;
   font-size: 16pt;
 }
 
-.post .date
-{
+.post > .header .buttons {
+  float: left;
+  margin-left: -31px;
+  display: inline-block;
+  width: 21px;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.post > .header .button-collapse, .post.collapsed > .header .button-expand {
+  display: none;
+}
+
+.post.collapsed > .header .button-collapse, .post > .header .button-expand {
+  display: block;
+}
+
+.post > .header .date {
   color: #bbb;
   font-size: 10pt;
   margin-right: 1em;
 }
 
-.pagination .previous
-{
-  float: left;
+.post > .header .link {
+  visibility: hidden;
+  font-size: 10pt;
+  margin-left: 1em;
+}
+.post > .header:hover .link {
+  visibility: visible;
 }
 
-.pagination .next
-{
-  float: right;
-}
-
-.pagination-separator
-{
-  clear: both;
-  height: 1em;
-}
-
-.post-date
-{
+.post-date {
   color: #bbb;
   font-size: 10pt;
   margin-bottom: 1em;
