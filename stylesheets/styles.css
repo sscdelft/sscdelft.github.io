@@ -1136,3 +1136,29 @@ footer {
     top: 10px;
   }
 }
+
+/* board */
+
+.board-member {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.board-member > div.summary {
+  float: left;
+  width: 128px;
+  border-right: 1px solid #ffcc00;
+  margin-right: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.board-member > div.summary p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.board-member > div.clear {
+  clear: both;
+}
