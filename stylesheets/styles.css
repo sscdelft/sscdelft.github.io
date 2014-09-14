@@ -542,7 +542,14 @@ a small {
 }
 
 ul {
-  list-style-image: url("../images/bullet.png");
+  list-style: none;
+}
+li:before {
+  font-family: FontAwesome;
+  color: #ffcc00;
+  content: "\f105";
+  float: left;
+  margin-left: -15px;
 }
 
 strong {
@@ -814,6 +821,9 @@ nav ul, .menu-content ul {
   list-style-image: none;
   font-size: 14px;
   line-height: 24px;
+}
+nav ul li:before {
+  content: none;
 }
 nav ul li, .menu-content ul li {
   padding: 5px 0px;
