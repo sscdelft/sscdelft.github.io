@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>SIAM Student Chapter Delft - {{ page.title }}</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
     <link rel="alternate" type="application/atom+xml" title="SIAM Student Chapter Delft" href="{{ site.baseurl }}/atom.xml"/>
     <script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
+    <script src="{{ site.baseurl }}/javascripts/classList.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,31 +18,45 @@
   <body>
 
     <header>
+      <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.add('visible'); event.stopPropagation();">
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+        <div class="sidebar-button-line"></div>
+      </div>
       <h1>SIAM Student Chapter Delft</h1>
       <p>Delft University of Technology</p>
     </header>
 
     <div id="banner">
-      <span id="logo"></span>
+      <span id="logo" class="fa fa-github"></span>
       <a href="https://github.com/sscdelft/sscdelft.github.io" class="button fork"><strong>Fork On GitHub</strong></a>
     </div><!-- end banner -->
 
-      <div class="menu">
-        <div class="menu-button">
-          <div class="menu-button-line"></div>
-          <div class="menu-button-line"></div>
-          <div class="menu-button-line"></div>
-        </div>
-        <div class="menu-sep"></div>
-        <div class="menu-content">
-          {% include navigation.html %}
-        </div>
+    <div id="sidebar" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
+      <div class="sidebar-background-1">
+        <div class="sidebar-background-2" onclick="event.stopPropagation();"></div>
       </div>
-
+      <div class="sidebar-content" onclick="event.stopPropagation();">
+        <div class="sidebar-button" onclick="document.getElementById('sidebar').classList.remove('visible'); event.stopPropagation();">
+          <div class="sidebar-button-line"></div>
+          <div class="sidebar-button-line"></div>
+          <div class="sidebar-button-line"></div>
+        </div>
+        <div class="sidebar-button-sep"></div>
+        <nav>
+          {% include navigation.html %}
+          <ul>
+            <li class="social-media">
+              <a href="https://twitter.com/SSC_Delft"><span class="fa fa-twitter-square"></span></a>
+              <a href="https://www.facebook.com/siamscdelft"><span class="fa fa-facebook-square"></span></a>
+              <a href="https://plus.google.com/u/0/113921285278807523738"><span class="fa fa-google-plus-square"></span></a>
+              <a href="https://www.youtube.com/channel/UC1JbNMbHRX3kTVDaWU2yI2A"><span class="fa fa-youtube-square"></span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="wrapper">
-      <nav>
-        {% include navigation.html %}
-      </nav>
       {{ content }}
 
       <footer>

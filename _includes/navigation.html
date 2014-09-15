@@ -1,9 +1,16 @@
 <ul>
-  <li><a href="{{ site.baseurl }}/">About</a></li>
-  <li><a href="{{ site.baseurl }}/news/">News</a></li>
-  <li><a href="{{ site.baseurl }}/members.html">Who are we?</a></li>
-  <li><a href="{{ site.baseurl }}/talks.html">Talks</a></li>
-  <li><a href="{{ site.baseurl }}/project-banana.html">Project baNaNa</a></li>
-  <li><a href="{{ site.baseurl }}/social.html">Social events</a></li>
-  <li><a href="{{ site.baseurl }}/contact.html">Join us!</a></li>
+  {% assign sorted_pages = (site.pages | sort: 'navigation') %}
+  {% for p in sorted_pages %}
+    {% if p.navigation != nil %}
+      <li class="{{ current }}">
+        {% if page.url == p.url %}
+          <span class="fa fa-angle-double-right"></span>
+        {% endif %}
+        {% if p.feed != nil %}
+          <a href="{{ p.feed | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span></a>
+        {% endif %}
+        <a href="{{ p.url | prepend: site.baseurl | replace: 'index.html', '' }}">{{ p.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
 </ul>
