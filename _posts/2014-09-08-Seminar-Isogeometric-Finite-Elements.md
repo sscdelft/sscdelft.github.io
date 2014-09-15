@@ -5,7 +5,7 @@ title: "Seminar: Isogeometric Finite Elements"
 
 Hi all,
 
-We would like to invite to all reseacher in applied mathematics to
+We would like to invite to all reseachers in applied mathematics to
 the seminar: Isogeometric Finite Elements. The seminar will take place every second Tuesday 
 between 13:00 and 15:00 and it will start on September 9th.
 
