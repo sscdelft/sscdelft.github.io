@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kickoff meeting
-category: current-activity
+category: past-activity
 ---
 
 Friday 19 September 2014, Dijkstrazaal (HB09.150)
