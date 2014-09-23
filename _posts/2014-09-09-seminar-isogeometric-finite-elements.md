@@ -7,7 +7,7 @@ category: current-activity
 * Organizers: [M. Möller] and [T. Vuik]
 * Starting: The seminar will take place every second Tuesday between 13:00 and
   15:00. The first session will be September 9 (HB 05.230, EWI building).
-* Participation is valued by 1 ECTS point per 8h attendance for PhD students.
+* Participation is valued by 1 GS point per 8h attendance for PhD students.
 * See [this][seminar website] website for more information.
 
 [M. Möller]: mailto: M.Moller@tudelft.nl
