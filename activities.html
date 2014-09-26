@@ -4,37 +4,39 @@ title: Activities
 navigation: 40
 ---
 
-{% for post in site.categories.current-activity %}
-  <div id="current-activity-{{ forloop.index0 }}" class="post">
-    <div class="header" onclick="document.getElementById('current-activity-{{ forloop.index0 }}').classList.toggle('collapsed')">
-      <span class="buttons">
-        <span class="fa fa-angle-double-right button-collapse"></span>
-        <span class="fa fa-angle-double-down button-expand"></span>
-      </span>
-      <span class="title">{{ post.title }}</span>
-      <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+{% for post in site.categories.activities %}
+  {% if post.discontinued != true %}
+    <div id="current-activity-{{ forloop.index0 }}" class="post">
+      <div class="header" onclick="document.getElementById('current-activity-{{ forloop.index0 }}').classList.toggle('collapsed')">
+        <span class="buttons">
+          <span class="fa fa-angle-double-right button-collapse"></span>
+          <span class="fa fa-angle-double-down button-expand"></span>
+        </span>
+        <span class="title">{{ post.title }}</span>
+        <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+      </div>
+      <div class="content">
+        {{ post.content }}
+      </div>
     </div>
-    <div class="content">
-      {{ post.content }}
-    </div>
-  </div>
+  {% endif %}
 {% endfor %}
 
-<p>The following activities are discontinued.</p>
-
-{% for post in site.categories.past-activity %}
-  <div id="past-activity-{{ forloop.index0 }}" class="post collapsed">
-    <div class="header" onclick="document.getElementById('past-activity-{{ forloop.index0 }}').classList.toggle('collapsed')">
-      <span class="buttons">
-        <span class="fa fa-angle-double-right button-collapse"></span>
-        <span class="fa fa-angle-double-down button-expand"></span>
-      </span>
-      <span class="discontinued">discontinued</span>
-      <span class="title">{{ post.title }}</span>
-      <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+{% for post in site.categories.activities %}
+  {% if post.discontinued == true %}
+    <div id="discontinued-activity-{{ forloop.index0 }}" class="post collapsed">
+      <div class="header" onclick="document.getElementById('discontinued-activity-{{ forloop.index0 }}').classList.toggle('collapsed')">
+        <span class="buttons">
+          <span class="fa fa-angle-double-right button-collapse"></span>
+          <span class="fa fa-angle-double-down button-expand"></span>
+        </span>
+        <span class="discontinued">discontinued</span>
+        <span class="title">{{ post.title }}</span>
+        <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+      </div>
+      <div class="content">
+        {{ post.content }}
+      </div>
     </div>
-    <div class="content">
-      {{ post.content }}
-    </div>
-  </div>
+  {% endif %}
 {% endfor %}
