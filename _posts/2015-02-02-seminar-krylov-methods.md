@@ -6,7 +6,8 @@ category: activities
 
 Dear all,
 
-We would like to announce the **SIAM Student Krylov Day 2015**. 
+We would like to announce the **SIAM Student Krylov Day 2015** 
+on February, 2nd, 2015 at TU Delft. 
 
 The aim of this one-day seminar is to share ideas, and promote the 
 collaboration between PhD students working on Krylov methods. 
