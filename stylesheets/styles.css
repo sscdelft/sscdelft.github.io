@@ -1135,6 +1135,7 @@ footer {
   -o-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  height: 128px;
 }
 
 .post > .body > .media-attachments img {
