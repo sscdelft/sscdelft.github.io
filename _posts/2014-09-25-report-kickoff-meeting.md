@@ -51,4 +51,4 @@ Present were 27 people (PhD students, post docs and professors), from the
 departments of Applied Mathematics, Electrical Engineering and Maritime
 Transport Technology.  Also Aerospace Engineering is involved with the Chapter.
 
-[Kickoff Meeting]: {{ site.base_url }}/activities/2014/09/19/kickoff-meeting.html
+[Kickoff Meeting]: {{ site.baseurl }}/activities/2014/09/19/kickoff-meeting.html
