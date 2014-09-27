@@ -6,8 +6,9 @@ feed: /atom.xml
 ---
 
 {% for post in site.categories.news %}
-  <div id="post-{{ forloop.index0 }}" {% if forloop.index0 < 5 %} class="post" {% else %} class="post collapsed" {% endif %}>
-    <div class="header" onclick="document.getElementById('post-{{ forloop.index0 }}').classList.toggle('collapsed')">
+  {% assign post_id = "post-" | append: forloop.index0 %}
+  <div id="{{ post_id }}" {% if forloop.index0 < 5 %} class="post" {% else %} class="post collapsed" {% endif %}>
+    <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
       <span class="buttons">
         <span class="fa fa-angle-double-right button-collapse"></span>
         <span class="fa fa-angle-double-down button-expand"></span>
@@ -16,8 +17,11 @@ feed: /atom.xml
       <span class="title">{{ post.title }}</span>
       <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
     </div>
-    <div class="content">
-      {{ post.content }}
+    <div class="body">
+      <div class="content">
+        {{ post.content }}
+      </div>
+      {% include media-attachments.html %}
     </div>
   </div>
 {% endfor %}

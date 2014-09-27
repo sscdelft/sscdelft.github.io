@@ -1058,13 +1058,13 @@ footer {
   margin-bottom: 2em;
 }
 
-.post > .content {
+.post > .body {
   margin-left: 10px;
   padding-left: 20px;
   border-left: 1px solid #ffcc00;
 }
 
-.post.collapsed > .content {
+.post.collapsed > .body {
   display: none;
 }
 
@@ -1113,6 +1113,41 @@ footer {
   margin-bottom: 1em;
 }
 
+.media-attachments {
+  text-align: center;
+}
+
+.post > .body > .media-attachments div {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.media-attachments img {
+  display: inline-block;
+  margin: 4px;
+  padding: 0px;
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.post > .body > .media-attachments img {
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+
+.post > .body > .media-attachments img:first-child {
+  margin-left: 0px;
+}
+
 /* board */
 
 .board-member {
@@ -1137,4 +1172,135 @@ footer {
 
 .board-member > div.clear {
   clear: both;
+}
+
+/* theatre */
+
+/* Using centering trick from
+ *   http://css-tricks.com/centering-in-the-unknown
+ */
+
+.theatre {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0px;
+  margin: 0px;
+  background: rgba(0,0,0,0.75);
+  z-index: 100;
+}
+
+.theatre .body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.theatre .content-container {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  top: 50px;
+  bottom: 50px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.theatre .content-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.theatre .content-container .content {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.theatre .left-pane, .theatre .right-pane,
+.theatre .left-pane .button, .theatre .right-pane .button {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.theatre .left-pane {
+  left: 0px;
+  right: 50%;
+}
+
+.theatre .right-pane {
+  left: 50%;
+  right: 0px;
+}
+
+.theatre .left-pane .button {
+  left: 0px;
+}
+
+.theatre .right-pane .button {
+  right: 0px;
+}
+
+.theatre .exit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.theatre .exit .button:before {
+  content: '';
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.theatre .left-pane .button:before,
+.theatre .right-pane .button:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.theatre .left-pane .button,
+.theatre .right-pane .button,
+.theatre .exit .button {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  font-size: 25px;
+}
+
+.theatre .left-pane .button,
+.theatre .right-pane .button,
+.theatre .exit .button {
+  color: #666;
+}
+
+.theatre .left-pane:hover .button,
+.theatre .right-pane:hover .button,
+.theatre .exit:hover .button {
+  color: #bbb;
+}
+
+.theatre.no-previous .left-pane .button {
+  display: none;
+}
+
+.theatre.no-next .right-pane .button {
+  display: none;
 }
