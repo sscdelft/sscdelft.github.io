@@ -6,15 +6,30 @@ category: activities
 
 Dear all,
 
-We would like to announce the **SIAM Student Krylov Day 2015** 
-on February, 2nd, 2015 at TU Delft. 
+*Student Krylov Day 2015* is a one-day seminar on Krylov methods
+organized by the SIAM Student Chapter Delft.  The seminar will
+take place on 2 February 2015 at the TU Delft.  The aim of this one-day seminar
+is to share ideas and promote the collaboration between PhD students working
+on Krylov methods.  Topics:
 
-The aim of this one-day seminar is to share ideas, and promote the 
-collaboration between PhD students working on Krylov methods. 
-Topics: Solution of Linear Systems, Preconditioning, Eigenvalues approximation,
-Model reduction, etc.
+* Solution of Linear Systems,
+* Preconditioning,
+* Eigenvalues approximation,
+* Model reduction, etc.
 
-To participate please [send us an email][mail sscdelft]. 
-More information can be found [here][news krylov].
+Tentative speakers are
+
+* Reinaldo Astudillo, TU Delft
+* Manuel Baumann, TU Delft
+* Mario Berljafa, Manchester U
+* Carlos Echeverria, TU Berlin
+* Sarah Gaaf, TU Eindhoven
+* Tomas Gergelits, Prag U
+* Ying Zhao,  TU Delft
+* Jörn Zimmerling, TU Delft
+* Ian Zwaan, TU Eindhoven
+
+Please send an e-mail to the [SIAM Student Chapter Delft][mail sscdelft] if you
+want to participate.
+
 [mail sscdelft]: mailto:SIAMSC-EWI@tudelft.nl
-[news krylov]: http://sscdelft.github.io/news/2014/09/06/announcement-krylov-day.html 
