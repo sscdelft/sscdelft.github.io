@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seminar on Krylov mehthods (Student Krylov Day)"
+title: "Seminar on Krylov methods (Student Krylov Day)"
 category: activities
 ---
 
