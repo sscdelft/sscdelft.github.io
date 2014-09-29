@@ -22,7 +22,7 @@ Currently involved departments are:
 
 Our faculty advisors are [Kees Vuik] and [Martin van Gijzen].
 
-![members of the SIAM Student Chapter Delft]({{ site.baseurl }}/images/group.jpg)
+![members of the SIAM Student Chapter Delft]({{ site.baseurl }}/images/2014-09-19-kickoff-meeting/IMG_9624.jpg)
 
 [SIAM Student Chapters]: https://www.siam.org/students/chapters/
 [Kees Vuik]: http://ta.twi.tudelft.nl/users/vuik/

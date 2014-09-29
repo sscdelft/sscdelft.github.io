@@ -6,8 +6,9 @@ navigation: 40
 
 {% for post in site.categories.activities %}
   {% if post.discontinued != true %}
-    <div id="current-activity-{{ forloop.index0 }}" class="post">
-      <div class="header" onclick="document.getElementById('current-activity-{{ forloop.index0 }}').classList.toggle('collapsed')">
+    {% assign post_id = "current-activity-" | append: forloop.index0 %}
+    <div id="{{ post_id }}" class="post">
+      <div class="header" onclick="document.getElementById({{ post_id }}').classList.toggle('collapsed')">
         <span class="buttons">
           <span class="fa fa-angle-double-right button-collapse"></span>
           <span class="fa fa-angle-double-down button-expand"></span>
@@ -15,8 +16,11 @@ navigation: 40
         <span class="title">{{ post.title }}</span>
         <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
       </div>
-      <div class="content">
-        {{ post.content }}
+      <div class="body">
+        <div class="content">
+          {{ post.content }}
+        </div>
+        {% include media-attachments.html %}
       </div>
     </div>
   {% endif %}
@@ -24,8 +28,9 @@ navigation: 40
 
 {% for post in site.categories.activities %}
   {% if post.discontinued == true %}
-    <div id="discontinued-activity-{{ forloop.index0 }}" class="post collapsed">
-      <div class="header" onclick="document.getElementById('discontinued-activity-{{ forloop.index0 }}').classList.toggle('collapsed')">
+    {% assign post_id = "discontinued-activity-" | append: forloop.index0 %}
+    <div id="{{ post_id }}" class="post collapsed">
+      <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
         <span class="buttons">
           <span class="fa fa-angle-double-right button-collapse"></span>
           <span class="fa fa-angle-double-down button-expand"></span>
@@ -34,8 +39,11 @@ navigation: 40
         <span class="title">{{ post.title }}</span>
         <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
       </div>
-      <div class="content">
-        {{ post.content }}
+      <div class="body">
+        <div class="content">
+          {{ post.content }}
+        </div>
+        {% include media-attachments.html %}
       </div>
     </div>
   {% endif %}
