@@ -46,9 +46,9 @@ attached_media:
 
 On September 19, the [Kickoff Meeting] of our Student Chapter took place.
 During this meeting, the Chapter Board presented some of the current activities
-of the Chapter.  Furthermore, two substantive presentations were given.
-Present were 27 people (PhD students, post docs and professors), from the
-departments of Applied Mathematics, Electrical Engineering and Maritime
-Transport Technology.  Also Aerospace Engineering is involved with the Chapter.
+of the Chapter.  Furthermore, two substantive presentations were given.  27
+people were present (among PhD students, post docs and professors), from
+different departments like Numerical Analysis, Mathematical Physics, Statistics,
+Circuits and Systems and Maritime Transport Technology.
 
 [Kickoff Meeting]: {{ site.baseurl }}/activities/2014/09/19/kickoff-meeting.html
