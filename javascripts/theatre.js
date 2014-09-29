@@ -50,6 +50,12 @@ var theatre = theatre || {
                 data.url = data.url.replace(
                     '{'+'{'+' site.baseurl '+'}'+'}',
                     site_baseurl);
+            data.element = _theatre_create_element(
+            {
+                tag: 'img',
+                classes: ['content'],
+                src: data.url
+            });
         }
 
         theatre.el_content_container = _theatre_create_element(
@@ -135,12 +141,7 @@ var theatre = theatre || {
         theatre.current = new_current;
         theatre.el_content_container.innerHTML = '';
         theatre.el_content_container.appendChild(
-            _theatre_create_element(
-            {
-                tag: 'img',
-                classes: ['content'],
-                src: theatre.items[theatre.current].url
-            }));
+            theatre.items[theatre.current].element);
 
         if (theatre.current > 0)
             theatre.el_root.classList.remove('no-previous');
