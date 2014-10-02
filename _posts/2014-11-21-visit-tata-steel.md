@@ -3,6 +3,9 @@ layout: post
 title: "Visit to Tata Steel"
 category: activities
 ---
+We are visiting the [Tata Steel]'s research facilities at Ijmuiden on November 21th, 2014. 
+
+Program:
 
 * 10:30 Coffee
 * 10:45 General introduction Tata Steel, video
@@ -12,6 +15,13 @@ category: activities
 * 13:45 General introduction Tata Steel, video
 * 14:05 Preparation for site tour
 * 14:15 Visit to site and one or two production facilities
-* 15:00 ? 16:00 End
+* 15:00 - 16:00 End
+
+Transportation will be provided (TU Delft - Ijmuiden round-trip). Please send us [an email][mail sscdelft] 
+if you are interested. 
+
+Thanks to Dr.Ir. [Domenico Lahaye].
 
 [mail sscdelft]: mailto:SIAMSC-EWI@tudelft.nl
+[Tata Steel]: http://www.tatasteel.nl
+[Domenico Lahaye]: http://ta.twi.tudelft.nl/nw/users/domenico/index.html
