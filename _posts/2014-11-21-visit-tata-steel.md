@@ -20,7 +20,7 @@ Program:
 Transportation will be provided (TU Delft - IJmuiden round-trip). Please send an email to the [SIAM Student Chapter][mail sscdelft]
 if you are interested. 
 
-Thanks to Dr.Ir. [Domenico Lahaye].
+Thanks to [Domenico Lahaye].
 
 [mail sscdelft]: mailto:SIAMSC-EWI@tudelft.nl
 [Tata Steel]: http://www.tatasteel.nl
