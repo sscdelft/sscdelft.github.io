@@ -3,7 +3,7 @@ layout: post
 title: "Visit to Tata Steel"
 category: activities
 ---
-We are visiting the [Tata Steel]'s research facilities at Ijmuiden on November 21th, 2014. 
+We are visiting [Tata Steel]'s research facilities at IJmuiden on November 21th, 2014. 
 
 Program:
 
@@ -17,7 +17,7 @@ Program:
 * 14:15 Visit to site and one or two production facilities
 * 15:00 - 16:00 End
 
-Transportation will be provided (TU Delft - Ijmuiden round-trip). Please send us [an email][mail sscdelft] 
+Transportation will be provided (TU Delft - IJmuiden round-trip). Please send an email to the [SIAM Student Chapter][mail sscdelft]
 if you are interested. 
 
 Thanks to Dr.Ir. [Domenico Lahaye].
