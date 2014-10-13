@@ -21,10 +21,10 @@ Tentative speakers are:
 * Mario Berljafa, Manchester U
 * Carlos Echeverria, TU Berlin
 * Sarah Gaaf, TU Eindhoven
-* Tomas Gergelits, Prag U
+* Tomas Gergelits, Prague U
 * Yue Qiu, TU Delft
 * Peter Sonneveld, TU Delft
-* Ying Zhao,  TU Delft
+* Jing Zhao,  TU Delft
 * Jörn Zimmerling, TU Delft
 * Ian Zwaan, TU Eindhoven
 

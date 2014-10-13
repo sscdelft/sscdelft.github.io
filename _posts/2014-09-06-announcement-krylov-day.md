@@ -18,8 +18,8 @@ organized "for and by" PhD students.  Tentative speakers are:
 * Mario Berljafa, Manchester U
 * Carlos Echeverria, TU Berlin
 * Sarah Gaaf, TU Eindhoven
-* Tomas Gergelits, Prag U
-* Ying Zhao,  TU Delft
+* Tomas Gergelits, Prague U
+* Jing Zhao,  TU Delft
 * Jörn Zimmerling, TU Delft
 * Ian Zwaan, TU Eindhoven
 
