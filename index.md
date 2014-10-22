@@ -17,8 +17,10 @@ Currently involved departments are:
 * Applied Mathematics (sections Statistics, Mathematical Physics, Numerical
   Analysis)
 * Aerospace Engineering (section Aerodynamics)
-* Electrical Engineering (section Circuits and Systems)
+* Electrical Engineering (sections Circuits and Systems, Intelligent Electrical
+  Power Grids)
 * Marine and Transport Technology (section Offshore & Dredging Engineering)
+* Geoscience and Engineering (section Petroleum engineering)
 
 Our faculty advisors are [Kees Vuik] and [Martin van Gijzen].
 
