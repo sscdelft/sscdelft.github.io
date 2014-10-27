@@ -16,17 +16,17 @@ workshop.
 
 Tentative speakers are:
 
-* Reinaldo Astudillo, TU Delft
-* Manuel Baumann, TU Delft
-* Mario Berljafa, Manchester U
-* Carlos Echeverria, TU Berlin
-* Sarah Gaaf, TU Eindhoven
+* [Reinaldo Astudillo], TU Delft
+* [Manuel Baumann], TU Delft
+* [Mario Berljafa], Manchester U
+* [Carlos Echeverria], TU Berlin
+* [Sarah Gaaf], TU Eindhoven
 * Tomas Gergelits, Prague U
-* Yue Qiu, TU Delft
-* Peter Sonneveld, TU Delft
+* [Yue Qiu], TU Delft
+* [Peter Sonneveld], TU Delft
 * Jing Zhao,  TU Delft
 * Jörn Zimmerling, TU Delft
-* Ian Zwaan, TU Eindhoven
+* [Ian Zwaan], TU Eindhoven
 
 Please send an abstract of your talk to [our Student Chapter][mail sscdelft]
 before 30 November following this [template].
@@ -42,3 +42,13 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [template]: {{ site.baseurl }}/images/kd_template.tex
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
 [TU Delft]: http://tudelft.nl/
+
+[Reinaldo Astudillo]: http://ta.twi.tudelft.nl/nw/users/rastudillo/
+[Manuel Baumann]: http://ta.twi.tudelft.nl/nw/users/mmbaumann/
+[Mario Berljafa]: http://www.maths.manchester.ac.uk/~berljafa/
+[Carlos Echeverria]: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/fg_numerische_lineare_algebra/v-menue/numerische_lineare_algebra/carlos_echeverria/home/
+[Sarah Gaaf]: http://www.win.tue.nl/~sgaaf/
+[Yue Qiu]: http://ta.twi.tudelft.nl/nw/users/yueqiu/
+[Peter Sonneveld]: http://ta.twi.tudelft.nl/nw/users/sonnevld/
+[Ian Zwaan]: http://ianzwaan.com/
+
