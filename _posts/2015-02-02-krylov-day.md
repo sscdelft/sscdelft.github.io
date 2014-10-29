@@ -22,7 +22,7 @@ Tentative speakers are:
 * [Carlos Echeverria], TU Berlin
 * [Sarah Gaaf], TU Eindhoven
 * Tomas Gergelits, Prague U
-* Xian-Ming Gu, Groningen U
+* [Xian-Ming Gu], Groningen U
 * [Yue Qiu], TU Delft
 * [Peter Sonneveld], TU Delft
 * Jing Zhao,  TU Delft
@@ -52,4 +52,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Yue Qiu]: http://ta.twi.tudelft.nl/nw/users/yueqiu/
 [Peter Sonneveld]: http://ta.twi.tudelft.nl/nw/users/sonnevld/
 [Ian Zwaan]: http://ianzwaan.com/
-
+[Xian-Ming Gu]: http://www.rug.nl/staff/x.m.gu/
