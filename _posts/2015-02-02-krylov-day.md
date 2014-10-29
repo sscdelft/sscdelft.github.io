@@ -22,6 +22,7 @@ Tentative speakers are:
 * [Carlos Echeverria], TU Berlin
 * [Sarah Gaaf], TU Eindhoven
 * Tomas Gergelits, Prague U
+* Xian-Ming Gu, Groningen U
 * [Yue Qiu], TU Delft
 * [Peter Sonneveld], TU Delft
 * Jing Zhao,  TU Delft
