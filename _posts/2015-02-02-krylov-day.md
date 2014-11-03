@@ -14,7 +14,7 @@ announce the participation of Peter Sonneveld.  Peter is one of the founding
 fathers of the [IDR] method and he will give a *historical talk* during the
 workshop.
 
-Tentative speakers are:
+Tentative participants are:
 
 * [Reinaldo Astudillo], TU Delft
 * [Manuel Baumann], TU Delft
@@ -23,8 +23,10 @@ Tentative speakers are:
 * [Sarah Gaaf], TU Eindhoven
 * Tomas Gergelits, Prague U
 * [Xian-Ming Gu], Groningen U
+* Gijs Kooij, Twente U
 * [Yue Qiu], TU Delft
 * [Peter Sonneveld], TU Delft
+* [Ana Susnjara], EPF Lausanne
 * Jing Zhao,  TU Delft
 * Jörn Zimmerling, TU Delft
 * [Ian Zwaan], TU Eindhoven
@@ -53,3 +55,5 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Peter Sonneveld]: http://ta.twi.tudelft.nl/nw/users/sonnevld/
 [Ian Zwaan]: http://ianzwaan.com/
 [Xian-Ming Gu]: http://www.rug.nl/staff/x.m.gu/
+[Ana Susnjara]: http://people.epfl.ch/ana.susnjara
+
