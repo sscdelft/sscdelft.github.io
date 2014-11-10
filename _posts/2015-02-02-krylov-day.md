@@ -24,9 +24,11 @@ Tentative participants are:
 * Tomas Gergelits, Prague U
 * [Xian-Ming Gu], Groningen U
 * Gijs Kooij, Twente U
+* [Patrick Kürschner], MPI Magdeburg
 * [Yue Qiu], TU Delft
 * [Peter Sonneveld], TU Delft
 * [Ana Susnjara], EPF Lausanne
+* [Heiko Weichelt], MPI Magdeburg
 * Jing Zhao,  TU Delft
 * Jörn Zimmerling, TU Delft
 * [Ian Zwaan], TU Eindhoven
@@ -56,4 +58,5 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Ian Zwaan]: http://ianzwaan.com/
 [Xian-Ming Gu]: http://www.rug.nl/staff/x.m.gu/
 [Ana Susnjara]: http://people.epfl.ch/ana.susnjara
-
+[Heiko Weichelt]: http://www2.mpi-magdeburg.mpg.de/mpcsc/weichelt/
+[Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
