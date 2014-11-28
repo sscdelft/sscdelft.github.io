@@ -21,7 +21,7 @@ Tentative participants are:
 * [Mario Berljafa], Manchester U
 * [Carlos Echeverria], TU Berlin
 * [Sarah Gaaf], TU Eindhoven
-* Tomas Gergelits, Prague U
+* [Tomas Gergelits], Prague U
 * [Xian-Ming Gu], Groningen U
 * Gijs Kooij, Twente U
 * [Patrick Kürschner], MPI Magdeburg
@@ -60,3 +60,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Ana Susnjara]: http://people.epfl.ch/ana.susnjara
 [Heiko Weichelt]: http://www2.mpi-magdeburg.mpg.de/mpcsc/weichelt/
 [Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
+[Tomas Gergelits]: http://www.karlin.mff.cuni.cz/~gergelits/
