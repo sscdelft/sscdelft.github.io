@@ -14,18 +14,15 @@ announce the participation of Peter Sonneveld.  Peter is one of the founding
 fathers of the [IDR] method and he will give a *historical talk* during the
 workshop.
 
-Tentative participants are:
+Confirmed speaker are:
 
 * [Reinaldo Astudillo], TU Delft
 * [Manuel Baumann], TU Delft
 * [Mario Berljafa], Manchester U
-* [Carlos Echeverria], TU Berlin
 * [Sarah Gaaf], TU Eindhoven
 * [Tomas Gergelits], Prague U
 * [Xian-Ming Gu], Groningen U
-* Gijs Kooij, Twente U
 * [Patrick Kürschner], MPI Magdeburg
-* [Yue Qiu], TU Delft
 * [Peter Sonneveld], TU Delft
 * [Ana Susnjara], EPF Lausanne
 * [Heiko Weichelt], MPI Magdeburg
@@ -33,11 +30,7 @@ Tentative participants are:
 * Jörn Zimmerling, TU Delft
 * [Ian Zwaan], TU Eindhoven
 
-Please send an abstract of your talk to [our Student Chapter][mail sscdelft]
-before 30 November following this [template].
-
-More participants are welcome to apply!  A more detailed programme will be
-uploaded in due time.
+A more detailed programme will be uploaded in due time.
 
 Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01.010.
          |Mekelweg 4, 2628 CD  Delft, The Netherlands. (How to get [there])
