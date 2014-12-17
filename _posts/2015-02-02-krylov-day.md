@@ -30,7 +30,7 @@ Confirmed speaker are:
 * Jörn Zimmerling, TU Delft
 * [Ian Zwaan], TU Eindhoven
 
-A more detailed programme will be uploaded in due time.
+A preliminary programme is now [available].
 
 Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01.010.
          |Mekelweg 4, 2628 CD  Delft, The Netherlands. (How to get [there])
@@ -40,6 +40,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [template]: {{ site.baseurl }}/images/kd_template.tex
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
 [TU Delft]: http://tudelft.nl/
+[available]:  {{ site.baseurl }}/images/krylov_meeting.pdf
 
 [Reinaldo Astudillo]: http://ta.twi.tudelft.nl/nw/users/rastudillo/
 [Manuel Baumann]: http://ta.twi.tudelft.nl/nw/users/mmbaumann/
