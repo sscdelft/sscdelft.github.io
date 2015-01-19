@@ -8,7 +8,7 @@ navigation: 40
   {% if post.discontinued != true %}
     {% assign post_id = "current-activity-" | append: forloop.index0 %}
     <div id="{{ post_id }}" class="post">
-      <div class="header" onclick="document.getElementById({{ post_id }}').classList.toggle('collapsed')">
+      <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
         <span class="buttons">
           <span class="fa fa-angle-double-right button-collapse"></span>
           <span class="fa fa-angle-double-down button-expand"></span>
