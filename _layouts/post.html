@@ -5,7 +5,9 @@ layout: body
 <section>
 
   <h1 class="pagetitle">{{ page.title }}</h1>
-  <div class="post-date">posted {{ page.date | date_to_string }}</div>
+  {% if page.category == "news" %}
+    <div class="post-date">posted {{ page.date | date_to_string }}</div>
+  {% endif %}
   {{ content }}
 
   {% assign post = page %}
