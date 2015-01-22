@@ -27,7 +27,7 @@ Confirmed speaker are:
 * [Ana Susnjara], EPF Lausanne
 * [Heiko Weichelt], MPI Magdeburg
 * Jing Zhao,  TU Delft
-* Jörn Zimmerling, TU Delft
+* [Jörn Zimmerling], TU Delft
 * [Ian Zwaan], TU Eindhoven
 
 A preliminary programme is now [available].
@@ -55,3 +55,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Heiko Weichelt]: http://www2.mpi-magdeburg.mpg.de/mpcsc/weichelt/
 [Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
 [Tomas Gergelits]: http://www.karlin.mff.cuni.cz/~gergelits/
+[Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290
