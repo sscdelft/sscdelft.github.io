@@ -2,6 +2,7 @@
 layout: post
 title: Seminar Isogeometric Finite Elements
 category: activities
+discontinued: true
 ---
 
 * Organizers: [M. Möller] and [T. Vuik]
