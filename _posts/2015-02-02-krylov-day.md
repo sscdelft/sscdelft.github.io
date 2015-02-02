@@ -2,6 +2,7 @@
 layout: post
 title: "Student Krylov Day 2015"
 category: activities
+discontinued: true
 ---
 
 The SIAM Student Chapter at TU Delft is organizing a **Student Krylov Day
