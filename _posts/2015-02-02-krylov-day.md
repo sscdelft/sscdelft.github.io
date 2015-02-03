@@ -43,6 +43,8 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [TU Delft]: http://tudelft.nl/
 [available]:  {{ site.baseurl }}/images/krylov_meeting.pdf
 
+![group pic KD15]({{ site.baseurl }}/images/KD15_group.jpg)
+
 [Reinaldo Astudillo]: http://ta.twi.tudelft.nl/nw/users/rastudillo/
 [Manuel Baumann]: http://ta.twi.tudelft.nl/nw/users/mmbaumann/
 [Mario Berljafa]: http://www.maths.manchester.ac.uk/~berljafa/
