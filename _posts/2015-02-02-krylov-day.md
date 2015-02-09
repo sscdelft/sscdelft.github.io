@@ -17,7 +17,7 @@ workshop.
 
 Confirmed speaker are:
 
-* [Reinaldo Astudillo], TU Delft
+* [Reinaldo Astudillo], TU Delft ([slides]({{ site.baseurl }}/images/KD15_talks/IDR_QEP.pdf))
 * [Manuel Baumann], TU Delft ([slides]({{ site.baseurl }}/images/KD15_talks/Manuel_KD15.pdf))
 * [Mario Berljafa], Manchester U
 * [Sarah Gaaf], TU Eindhoven
