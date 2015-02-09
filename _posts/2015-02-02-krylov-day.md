@@ -18,7 +18,7 @@ workshop.
 Confirmed speaker are:
 
 * [Reinaldo Astudillo], TU Delft
-* [Manuel Baumann], TU Delft
+* [Manuel Baumann], TU Delft ([slides])
 * [Mario Berljafa], Manchester U
 * [Sarah Gaaf], TU Eindhoven
 * [Tomas Gergelits], Prague U
@@ -46,7 +46,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 ![group pic KD15]({{ site.baseurl }}/images/KD15_group.jpg)
 
 [Reinaldo Astudillo]: http://ta.twi.tudelft.nl/nw/users/rastudillo/
-[Manuel Baumann]: {{ site.baseurl }}/images/KD15_talks/Manuel_KD15.pdf
+[Manuel Baumann]: http://ta.twi.tudelft.nl/nw/users/mmbaumann/
 [Mario Berljafa]: http://www.maths.manchester.ac.uk/~berljafa/
 [Carlos Echeverria]: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/fg_numerische_lineare_algebra/v-menue/numerische_lineare_algebra/carlos_echeverria/home/
 [Sarah Gaaf]: http://www.win.tue.nl/~sgaaf/
@@ -59,3 +59,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
 [Tomas Gergelits]: http://www.karlin.mff.cuni.cz/~gergelits/
 [Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290
+[slides]: {{ site.baseurl }}/images/KD15_talks/Manuel_KD15.pdf
