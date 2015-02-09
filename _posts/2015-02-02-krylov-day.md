@@ -19,17 +19,17 @@ Confirmed speaker are:
 
 * [Reinaldo Astudillo], TU Delft ([slides]({{ site.baseurl }}/images/KD15_talks/IDR_QEP.pdf))
 * [Manuel Baumann], TU Delft ([slides]({{ site.baseurl }}/images/KD15_talks/Manuel_KD15.pdf))
-* [Mario Berljafa], Manchester U
-* [Sarah Gaaf], TU Eindhoven
-* [Tomas Gergelits], Prague U
+* [Mario Berljafa], Manchester U ([slides]({{ site.baseurl }}/images/KD15_talks/berljafa.pdf))
+* [Sarah Gaaf], TU Eindhoven ([slides]({{ site.baseurl }}/images/KD15_talks/Sarah_20150202_KrylovDayDelft.pdf))
+* [Tomas Gergelits], Prague U ([slides]({{ site.baseurl }}/images/KD15_talks/Gergelits_KD15_Delft.pdf))
 * [Xian-Ming Gu], Groningen U
 * [Patrick Kürschner], MPI Magdeburg
 * [Peter Sonneveld], TU Delft
 * [Ana Susnjara], EPF Lausanne
-* [Heiko Weichelt], MPI Magdeburg
-* Jing Zhao,  TU Delft
+* [Heiko Weichelt], MPI Magdeburg ([slides]({{ site.baseurl }}/images/KD15_talks/weichelt_Krylov_Day_2015.pdf))
+* Jing Zhao, TU Delft
 * [Jörn Zimmerling], TU Delft
-* [Ian Zwaan], TU Eindhoven
+* [Ian Zwaan], TU Eindhoven ([slides]({{ site.baseurl }}/images/KD15_talks/ian.pdf))
 
 The final programme is now [available].
 
