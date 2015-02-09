@@ -46,7 +46,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 ![group pic KD15]({{ site.baseurl }}/images/KD15_group.jpg)
 
 [Reinaldo Astudillo]: http://ta.twi.tudelft.nl/nw/users/rastudillo/
-[Manuel Baumann]: http://ta.twi.tudelft.nl/nw/users/mmbaumann/
+[Manuel Baumann]: {{ site.baseurl }}/images/KD15_talks/Manuel_KD15.pdf
 [Mario Berljafa]: http://www.maths.manchester.ac.uk/~berljafa/
 [Carlos Echeverria]: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/fg_numerische_lineare_algebra/v-menue/numerische_lineare_algebra/carlos_echeverria/home/
 [Sarah Gaaf]: http://www.win.tue.nl/~sgaaf/
