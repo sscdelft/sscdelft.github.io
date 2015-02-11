@@ -3,6 +3,133 @@ layout: post
 title: "Student Krylov Day 2015"
 category: activities
 discontinued: true
+attached_media:
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0318.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0318-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0319.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0319-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0322.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0322-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0324.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0324-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0325.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0325-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0328.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0328-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0330.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0330-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0332.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0332-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0333.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0333-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0335.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0335-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0336.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0336-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0337.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0337-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0338.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0338-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0342.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0342-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0345.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0345-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0346.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0346-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0347.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0347-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0348.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0348-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0349.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0349-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0351.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0351-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0352.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0352-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0353.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0353-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0354.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0354-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0357.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0357-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0358.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0358-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0359.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0359-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0360.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0360-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0362.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0362-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0365.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0365-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0366.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0366-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0369.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0369-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0374.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0374-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0375.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0375-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0376.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0376-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0377.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0377-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0379.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0379-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0380.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0380-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0381.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0381-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0384.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0384-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0385.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0385-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0386.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0386-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0387.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0387-thumb.jpg"
 ---
 
 The SIAM Student Chapter at TU Delft is organizing a **Student Krylov Day
@@ -43,8 +170,6 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [TU Delft]: http://tudelft.nl/
 [available]:  {{ site.baseurl }}/images/krylov_meeting.pdf
 
-![group pic KD15]({{ site.baseurl }}/images/KD15_group.jpg)
-
 [Reinaldo Astudillo]: http://ta.twi.tudelft.nl/nw/users/rastudillo/
 [Manuel Baumann]: http://ta.twi.tudelft.nl/nw/users/mmbaumann/
 [Mario Berljafa]: http://www.maths.manchester.ac.uk/~berljafa/
@@ -58,4 +183,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Heiko Weichelt]: http://www2.mpi-magdeburg.mpg.de/mpcsc/weichelt/
 [Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
 [Tomas Gergelits]: http://www.karlin.mff.cuni.cz/~gergelits/
-[Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290
+[Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290total 8020
