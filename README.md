@@ -114,6 +114,16 @@ Guidelines:
 *   Reduce the quality of photos, either by downscaling or by lowering the jpeg
     encoding quality.  Several hundred kilobytes per photo should be enough.
 
+    To resize a set of photos to full HD resolution using *imagemagick*, use
+    the following command:
+
+        for f in *.jpg; do
+            echo "$f"
+            convert "$f" -resize '1920x1080>' -quality 80 -interlace Plane "$f"
+        done
+
+    Note: The photos will be overwritten!
+
 *   Place all photos of an event in a single directory, along with the
     thumbnails, see below.
 
