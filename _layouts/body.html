@@ -58,6 +58,17 @@
         </nav>
       </div>
     </div>
+    <div id="latest-news-bar">
+      <h1>Latest news</h1>
+      <ul>
+        {% for post in site.categories.news limit: 5 %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">
+            <span class="title">{{ post.title }}</span>
+            <span class="date">(posted {{ post.date | date_to_string }})</span>
+          </a></li>
+        {% endfor %}
+      </ul>
+    </div>
     <div class="wrapper">
       {{ content }}
 
