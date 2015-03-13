@@ -60,13 +60,16 @@
     </div>
     <div id="latest-news-bar">
       <h1>Latest news</h1>
-      <ul>
-        {% for post in site.categories.news limit: 5 %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">
-            <span class="title">{{ post.title }}</span>
-            <span class="date">(posted {{ post.date | date_to_string }})</span>
-          </a></li>
-        {% endfor %}
+      {% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
+      {% for post in site.categories.news limit: 5 %}
+        <a class="news-item" href="{{ site.baseurl }}{{ post.url }}">
+          <p class="title">{{ post.title }}</p>
+          <p class="date">posted {{ post.date | date_to_string }}</p>
+          {% if post.cover != nil %}
+            <img class="cover" src="{{ post.cover | replace: tag, site.baseurl }}"/>
+          {% endif %}
+        </a>
+      {% endfor %}
       </ul>
     </div>
     <div class="wrapper">
