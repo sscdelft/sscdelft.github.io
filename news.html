@@ -15,7 +15,7 @@ feed: /atom.xml
       </span>
       <span class="date">{{ post.date | date_to_string }}</span>
       <span class="title">{{ post.title }}</span>
-      <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+      <a class="link" href="{{ site.baseurl }}{{ post.url }}" onclick="event.stopPropagation();"><span class="fa fa-link"></span></a>
     </div>
     <div class="body">
       <div class="content">

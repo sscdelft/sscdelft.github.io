@@ -14,7 +14,7 @@ navigation: 40
           <span class="fa fa-angle-double-down button-expand"></span>
         </span>
         <span class="title">{{ post.title }}</span>
-        <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+        <a class="link" href="{{ site.baseurl }}{{ post.url }}" onclick="event.stopPropagation();"><span class="fa fa-link"></span></a>
       </div>
       <div class="body">
         <div class="content">
@@ -37,7 +37,7 @@ navigation: 40
         </span>
         <span class="discontinued">discontinued</span>
         <span class="title">{{ post.title }}</span>
-        <a class="link" href="{{ site.baseurl }}{{ post.url }}"><span class="fa fa-link"></span></a>
+        <a class="link" href="{{ site.baseurl }}{{ post.url }}" onclick="event.stopPropagation();"><span class="fa fa-link"></span></a>
       </div>
       <div class="body">
         <div class="content">
