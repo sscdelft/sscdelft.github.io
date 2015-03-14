@@ -20,6 +20,17 @@ var theatre = theatre || {
 
     show: function(theatre_data_id, clicked_item)
     {
+        if (history && history.pushState)
+            history.pushState({
+                type: 'theatre',
+                data_id: theatre_data_id,
+                current_item: clicked_item,
+            }, 'theatre');
+        theatre.show_without_history(theatre_data_id, clicked_item);
+    },
+
+    show_without_history: function(theatre_data_id, clicked_item)
+    {
         if (theatre.running)
             return false;
 
@@ -36,6 +47,7 @@ var theatre = theatre || {
         if (!items)
             return false;
 
+        theatre.data_id = theatre_data_id;
         theatre.items = items;
         theatre.running = true;
 
@@ -121,6 +133,13 @@ var theatre = theatre || {
 
     destroy: function()
     {
+        theatre.destroy_without_history();
+        if (history && history.pushState)
+            history.back();
+    },
+
+    destroy_without_history: function()
+    {
         theatre.running = false;
         if (theatre.el_root.parentNode)
             theatre.el_root.parentNode.removeChild(theatre.el_root);
@@ -137,6 +156,13 @@ var theatre = theatre || {
             new_current = 0;
         if (theatre.current === new_current)
             return false;
+
+        if (history && history.pushState && history.replaceState)
+            history.replaceState({
+                type: 'theatre',
+                data_id: theatre.data_id,
+                current_item: new_current,
+            }, 'theatre');
 
         theatre.current = new_current;
         theatre.el_content_container.innerHTML = '';
@@ -192,3 +218,18 @@ var theatre = theatre || {
         return false;
     }
 };
+
+window.addEventListener('popstate', function(e)
+{
+    if (e.state && e.state.type == 'theatre')
+    {
+        if (theatre.running)
+            theatre.destroy_without_history();
+        theatre.show_without_history(e.state.data_id, e.state.current_item);
+    }
+    else
+    {
+        if (theatre.running)
+            theatre.destroy_without_history();
+    }
+});
