@@ -5,6 +5,7 @@ navigation: 20
 feed: /atom.xml
 ---
 
+{% assign tag = '{' | append: '{' | append: ' site.baseurl ' | append: '}' | append: '}' %}
 {% for post in site.categories.news %}
   {% assign post_id = "post-" | append: forloop.index0 %}
   <div id="{{ post_id }}" {% if forloop.index0 < 5 %} class="post" {% else %} class="post collapsed" {% endif %}>
@@ -18,6 +19,12 @@ feed: /atom.xml
       <a class="link" href="{{ site.baseurl }}{{ post.url }}" onclick="event.stopPropagation();"><span class="fa fa-link"></span></a>
     </div>
     <div class="body">
+      {% if post.cover != nil %}
+        <img
+          class="post-cover"
+          src="{{ post.cover | replace: tag, site.baseurl }}"
+        />
+      {% endif %}
       <div class="content">
         {{ post.content }}
       </div>

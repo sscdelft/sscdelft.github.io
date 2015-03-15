@@ -1176,6 +1176,23 @@ footer {
   margin-bottom: 1em;
 }
 
+img.post-cover {
+  float: left;
+  width: 50%;
+  width: calc(50% - 12.5px);
+  margin: 0px 25px 25px 0px;
+  padding: 0px;
+}
+
+@media print, screen and (max-width: 480px) {
+  img.post-cover {
+    display: block;
+    width: 100%;
+    float: inherit;
+    margin-left: 0px;
+  }
+}
+
 .media-attachments {
   text-align: center;
 }
