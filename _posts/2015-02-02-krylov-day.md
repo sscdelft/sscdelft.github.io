@@ -2,6 +2,7 @@
 layout: post
 title: "Student Krylov Day 2015"
 category: activities
+redirect_from: "/kd15/"
 discontinued: true
 attached_media:
   - url: "{{ site.baseurl }}/images/2015-02-02-krylov-day/IMG_0318.jpg"
