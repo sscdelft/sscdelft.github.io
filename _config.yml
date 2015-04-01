@@ -1,6 +1,8 @@
 name: SIAM Student Chapter Delft
 timezone: Europe/Amsterdam
 markdown: kramdown
+gems:
+  - jekyll-redirect-from
 
 domain: sscdelft.github.io
 author: SIAM Student Chapter Delft
