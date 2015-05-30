@@ -1229,6 +1229,10 @@ img.post-cover {
   margin-left: 0px;
 }
 
+.clear-floats {
+  clear: both;
+}
+
 /* board */
 
 .board-member {
