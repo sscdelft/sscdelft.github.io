@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Annual BBQ (new date!)"
-category: news
 cover: "{{ site.baseurl }}/images/covers/2015-05-30-update-bbq.jpg"
 ---
 

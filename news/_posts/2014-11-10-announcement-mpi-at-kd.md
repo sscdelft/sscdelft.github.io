@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Student Chapter Magdeburg at KD15"
-category: news
 ---
 
 Great news! Two of our friends from the [SIAM Student Chapter in Magdeburg] will join the [KD15].

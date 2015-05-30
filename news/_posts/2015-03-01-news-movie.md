@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Movie night on March 13th"
-category: news
 ---
 
 Dear all,

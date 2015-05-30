@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Visit to Tata Steel"
-category: activities
 ---
 We will visit [Tata Steel]'s research facilities at IJmuiden on June 8, 2015.
 

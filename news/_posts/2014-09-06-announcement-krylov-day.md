@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Student Krylov Day @ TU Delft on February 2nd, 2015"
-category: news
 ---
 
 Dear all,

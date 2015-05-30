@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "baNaNa talk on Bitbucket"
-category: news
 ---
 
 On October 30, 2014, the first baNaNa lecture of this academic year took place.

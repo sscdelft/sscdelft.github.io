@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Seminar Isogeometric Finite Elements
-category: activities
 discontinued: true
 ---
 

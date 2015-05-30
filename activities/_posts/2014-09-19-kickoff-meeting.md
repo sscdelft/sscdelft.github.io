@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Kickoff meeting
-category: activities
 discontinued: true
 attached_media:
   - url: "{{ site.baseurl }}/images/2014-09-19-kickoff-meeting/IMG_9630.jpg"

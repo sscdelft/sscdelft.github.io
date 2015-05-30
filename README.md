@@ -33,21 +33,20 @@ navigation bar.  The order is based on the value of the `navigation` attribute.
 News
 ----
 
-News items live in the `_posts` directory.  The file containing the news should
-be named `YYYY-MM-DD-the-news-header.md` where `YYYY-DD-MM` is today's date and
-`the-news-header` should be the, possibly shortened, title of the news item in
-using only alphanumeric characters and dashes.  The yaml should contain `layout:
-post`, `category: news` and a `title` attribute.  An example news item:
+News items live in the `news/_posts/` directory.  The file containing the news
+should be named `YYYY-MM-DD-the-news-header.md` where `YYYY-DD-MM` is today's
+date and `the-news-header` should be the, possibly shortened, title of the news
+item in using only alphanumeric characters and dashes.  The yaml should contain
+`layout: post` and a `title` attribute.  An example news item:
 
     ---
     layout: post
-    category: news
     title: example news item
     ---
 
     news text
 
-News items are automatically listed in `news.html` and the atom feed `atom.xml`.
+News items are automatically listed in `news/` and the atom feed `atom.xml`.
 
 Guidelines:
 
@@ -59,7 +58,6 @@ Guidelines:
 
         ---
         layout: post
-        category: news
         title: Announcing An Event
         ---
 
@@ -70,12 +68,11 @@ Guidelines:
 Activities
 ----------
 
-Activities are exactly the same as news items, except for the category, which
-should be `activities`.  An example:
+Activities are exactly the same as news items, except they are located in
+`activities/_posts/`.  An example:
 
     ---
     layout: post
-    category: activities
     title: example activity
     ---
 
@@ -86,15 +83,14 @@ discontinued:
 
     ---
     layout: post
-    category: activities
     title: example activity
     discontinued: true
     ---
 
     activity text
 
-Activities are listed in `activities.html`, active activities on top,
-discontinued activities at the bottom, collapsed.
+Activities are listed in `activities/`, active activities on top, discontinued
+activities at the bottom, collapsed.
 
 Guidelines:
 
@@ -160,7 +156,6 @@ encoding.  An example:
 
     ---
     layout: post
-    category: news
     title: example post
     attached_media:
       - url: "{{ site.baseurl }}/images/YYYY-MM-DD-event/0000.jpg"

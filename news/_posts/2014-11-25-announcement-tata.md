@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Visit to Tata Steel"
-category: news
 ---
 
 Dear all,

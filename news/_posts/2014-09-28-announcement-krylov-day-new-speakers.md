@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Two more participants at Krylov Day"
-category: news
 ---
 
 Hi all,

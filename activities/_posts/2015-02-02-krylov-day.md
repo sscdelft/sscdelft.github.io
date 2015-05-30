@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Student Krylov Day 2015"
-category: activities
 redirect_from: "/kd15/"
 discontinued: true
 attached_media:

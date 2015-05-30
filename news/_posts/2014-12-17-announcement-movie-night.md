@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Movie night at EWI"
-category: news
 ---
 
 Hi all,

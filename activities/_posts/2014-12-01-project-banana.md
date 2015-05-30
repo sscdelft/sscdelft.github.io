@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Project baNaNa
-category: activities
 ---
 
 The [Project baNaNa] is a self-organised seminar from the PhD students of the
