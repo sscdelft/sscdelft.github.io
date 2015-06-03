@@ -4,7 +4,7 @@ title: "Annual BBQ (new date!)"
 cover: "{{ site.baseurl }}/images/covers/2015-05-30-update-bbq.jpg"
 ---
 
-We've changed the date of the annual Student Chapter BBQ to July 3, 2015, so
+We've changed the date of the annual Student Chapter BBQ to July 10, 2015, so
 update your agenda.  If you want to join, please add your name to [this
 list][bbq-participants].  See you there!
 
