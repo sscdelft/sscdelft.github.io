@@ -1,6 +1,19 @@
 ---
 layout: post
 title: "Visit to Tata Steel"
+attached_media:
+  - url: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02054.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02054-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02048.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02048-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02049.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02049-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/2015-06-08-tata/IMG_20150608_103843.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2015-06-08-tata/IMG_20150608_103843-thumb.jpg"
 ---
 We will visit [Tata Steel]'s research facilities at IJmuiden on June 8, 2015.
 
