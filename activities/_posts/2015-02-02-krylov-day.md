@@ -184,3 +184,10 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
 [Tomas Gergelits]: http://www.karlin.mff.cuni.cz/~gergelits/
 [Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290total 8020
+
+In the media
+------------
+
+* A [news item][sinews] on the Krylov Day has appeared in SIAM News.
+
+[sinews]: http://sinews.siam.org/DetailsPage/tabid/607/ArticleID/504/European-Students-Gather-at-TU-Delft-for-Krylov-Day.aspx
