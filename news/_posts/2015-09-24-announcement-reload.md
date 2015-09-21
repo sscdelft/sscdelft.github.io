@@ -1,6 +1,6 @@
 ---
 layout: post
-Student Chapter RELOADED
+title: "Student Chapter RELOADED"
 ---
 
 We start the new academic year with a [baNaNa talk].  See you there!
