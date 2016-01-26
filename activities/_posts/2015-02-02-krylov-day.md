@@ -183,7 +183,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Snijderszaal LB 01
 [Heiko Weichelt]: http://www2.mpi-magdeburg.mpg.de/mpcsc/weichelt/
 [Patrick Kürschner]: http://www2.mpi-magdeburg.mpg.de/mpcsc/kuerschner/
 [Tomas Gergelits]: http://www.karlin.mff.cuni.cz/~gergelits/
-[Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290total 8020
+[Jörn Zimmerling]: http://ens.ewi.tudelft.nl/People/bio.php?id=290total8020
 
 In the media
 ------------
