@@ -1,0 +1,29 @@
+---
+layout: default
+title: Board
+navigation: 40
+---
+
+{% for post in site.categories.board %}
+  {% if post.discontinued != true %}
+    {% assign post_id = "current-activity-" | append: forloop.index0 %}
+    <div id="{{ post_id }}" {% if forloop.index0 < 1 %} class="post" {% else %} class="post collapsed" {% endif %}>
+      <div class="header" onclick="document.getElementById('{{ post_id }}').classList.toggle('collapsed')">
+        <span class="buttons">
+          <span class="fa fa-angle-double-right button-collapse"></span>
+          <span class="fa fa-angle-double-down button-expand"></span>
+        </span>
+        <span class="title">{{ post.title }}</span>
+        <a class="link" href="{{ site.baseurl }}{{ post.url }}" onclick="event.stopPropagation();"><span class="fa fa-link"></span></a>
+      </div>
+      <div class="body">
+        <div class="content">
+          {{ post.content }}
+        </div>
+        <div class="clear-floats"/>
+        {% include media-attachments.html %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
