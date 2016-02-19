@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visit to Tata Steel"
+discontinued: true
 attached_media:
   - url: "{{ site.baseurl }}/images/2015-06-08-tata/DSC02054.jpg"
     type: image
