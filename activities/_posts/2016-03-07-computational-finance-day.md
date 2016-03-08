@@ -8,7 +8,7 @@ which is going to take place on May 23rd 2016.
 
 The meeting will be a one-day workshop of PhD students that are working in the field of computational finance. 
 We are happy to announce the participation of professor Kees Oosterlee as a keynote speaker. 
-Kees is an expert in the field of computational finance and he will give an overall talk during the workshop, 
+Kees is an expert in the field of computational finance and he will give an overview talk during the workshop, 
 in which he will introduce several interesting topics regarding computational finance.
 
 Confirmed speaker are:
