@@ -33,7 +33,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
 [Zaza van der Have]: http://www.ewi.tudelft.nl/nl/over-de-faculteit/afdelingen/toegepaste-wiskunde/numerieke-wiskunde/mensen/phd-studenten/ir-z-van-der-have/
 [Kees Oosterlee]: http://ta.twi.tudelft.nl/mf/users/oosterle/
 [Maarten Wyns]: https://www.uantwerpen.be/nl/personeel/maarten-wyns/
-[Anastasia Borovykh]: https://
-[Shih-Hau Tan]: https://
+[Anastasia Borovykh]: https://www.unibo.it/sitoweb/anastasia.borovykh2/en 
+[Shih-Hau Tan]: http://staffweb.cms.gre.ac.uk/~ts73/ 
 
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
