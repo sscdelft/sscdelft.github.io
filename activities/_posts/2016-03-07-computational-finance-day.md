@@ -8,10 +8,10 @@ which is going to take place on May 23rd 2016.
 
 The meeting will be a one-day workshop of PhD students that are working in the field of computational finance. 
 We are happy to announce the participation of professor Kees Oosterlee as a keynote speaker. 
-Kees is an expert in the field of computational finance and he will give an overview talk during the workshop, 
+Kees is an expert in the field of computational finance and will give an overview talk during the workshop, 
 in which he will introduce several interesting topics regarding computational finance.
 
-Confirmed speaker are:
+Confirmed speakers are:
 
    * [Fei Cong], TU Delft
    * [Qian Feng], CWI Amsterdam
@@ -19,7 +19,9 @@ Confirmed speaker are:
    * [Zaza van der Have], TU Delft & CWI Amsterdam 
    * [Kees Oosterlee], TU Delft & CWI Amsterdam 
    * [Maarten Wyns], U Antwerpen 
-
+   * [Anastasia Borovykh], University of Bologna
+   * [Shih-Hau Tan], University of Greenwich
+   
 The final program is not yet available.
 
 Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
@@ -31,5 +33,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
 [Zaza van der Have]: http://www.ewi.tudelft.nl/nl/over-de-faculteit/afdelingen/toegepaste-wiskunde/numerieke-wiskunde/mensen/phd-studenten/ir-z-van-der-have/
 [Kees Oosterlee]: http://ta.twi.tudelft.nl/mf/users/oosterle/
 [Maarten Wyns]: https://www.uantwerpen.be/nl/personeel/maarten-wyns/
+[Anastasia Borovykh]: https://
+[Shih-Hau Tan]: https://
 
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
