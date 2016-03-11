@@ -21,6 +21,7 @@ Confirmed speakers are:
    * [Maarten Wyns], U Antwerpen 
    * [Anastasia Borovykh], University of Bologna
    * [Shih-Hau Tan], University of Greenwich
+   * [Gemma Colldeforns Papiol], CRM Barcelona
    
 The final program is not yet available.
 
@@ -35,5 +36,6 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
 [Maarten Wyns]: https://www.uantwerpen.be/nl/personeel/maarten-wyns/
 [Anastasia Borovykh]: https://www.unibo.it/sitoweb/anastasia.borovykh2/en 
 [Shih-Hau Tan]: http://staffweb.cms.gre.ac.uk/~ts73/ 
+[Gemma Colldeforns Papiol]: http://www.crm.cat/en/About/People/Researchers/gcolldeforns/Pages/PersonalContact.aspx?ItemId=CO004592 
 
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
