@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative; boundary="===============5746360956617212666=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============5746360956617212666==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+On November 27th, 2014, the second baNaNa lecture of this academic year took
+place. Reinaldo gave a presentation about the numerical linear algebra
+libraries [BLAS](http://www.netlib.org/blas/) and
+[LAPACK](http://www.netlib.org/lapack/).  
+Twenty two people from different departments attended the lecture, and many
+examples were given.
+
+
+--===============5746360956617212666==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - baNaNa talk on BLAS and LAPACK</title>
+  </head>
+  <body>
+    <p>On November 27th, 2014, the second baNaNa lecture of this academic year took place.
+Reinaldo gave a presentation about the numerical linear algebra libraries <a href="http://www.netlib.org/blas/">BLAS</a> and <a href="http://www.netlib.org/lapack/">LAPACK</a>.<br />
+Twenty two people from different departments attended the lecture, and many examples were given.</p>
+
+
+  </body>
+</html>
+
+--===============5746360956617212666==--

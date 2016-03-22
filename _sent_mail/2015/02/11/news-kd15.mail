@@ -1,0 +1,59 @@
+Content-Type: multipart/alternative; boundary="===============8560427568819978113=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============8560427568819978113==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+On February 2nd, the SIAM Student Chapter at TU Delft organized a one-day
+workshop on Krylov subspace methods. During the day, twelve PhD students in
+numerical linear algebra gave an overview of their current work and its
+relation to Krylov subspaces. The participants came from different
+universities of The Netherlands and other European countries, among which
+representatives of the SIAM Student Chapters in Magdeburg, Manchester, and
+Prague.
+
+Although Krylov methods are usually associated with the iterative solution of
+large-scale linear systems, the workshop showed a huge variety of fields where
+Krylov subspaces are currently applied. The topics of the workshop covered
+(generalized) eigenvalue problems, matrix condition number estimation as well
+as the approximation of matrix functions and applications in seismic wave
+propagation and flow control.
+
+As a main speaker, Peter Sonneveld from TU Delft gave a historical talk about
+the development of the IDR(s) method which is a short-recurrence Krylov method
+for the efficient iterative solution of linear systems with general system
+matrix.
+
+More information and an overview of the talks can be found
+[here](/activities/2015/02/02/krylov-day.html).
+
+
+--===============8560427568819978113==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - Student Krylov Day 2015</title>
+  </head>
+  <body>
+    <p>On February 2nd, the SIAM Student Chapter at TU Delft organized a one-day workshop on Krylov subspace methods. During the day, twelve PhD students in numerical linear algebra gave an overview of their current work and its relation to Krylov subspaces. The participants came from different universities of The Netherlands and other European countries, among which representatives of the SIAM Student Chapters in Magdeburg, Manchester, and Prague.</p>
+
+<p>Although Krylov methods are usually associated with the iterative solution of large-scale linear systems, the workshop showed a huge variety of fields where Krylov subspaces are currently applied. The topics of the workshop covered (generalized) eigenvalue problems, matrix condition number estimation as well as the approximation of matrix functions and applications in seismic wave propagation and flow control.</p>
+
+<p>As a main speaker, Peter Sonneveld from TU Delft gave a historical talk about the development of the IDR(s) method which is a short-recurrence Krylov method for the efficient iterative solution of linear systems with general system matrix.</p>
+
+<p>More information and an overview of the talks can be found <a href="/activities/2015/02/02/krylov-day.html">here</a>.</p>
+
+
+  </body>
+</html>
+
+--===============8560427568819978113==--

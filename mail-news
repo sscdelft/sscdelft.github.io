@@ -1,0 +1,226 @@
+#! /usr/bin/env python3
+
+
+import os
+import subprocess
+import tempfile
+import email.mime.text
+import email.mime.multipart
+import re
+import sys
+
+sys.path.append('_third_party/html2text')
+import html2text
+
+
+if not hasattr(subprocess, 'run'):
+    class Result: pass
+    def _subprocess_run(*args, check=False, **kwargs):
+        process = subprocess.Popen(*args, **kwargs)
+        result = Result()
+        result.stdout, result.stderr = process.communicate()
+        result.returncode = process.returncode
+        if process.returncode != 0:
+            raise ValueError('command failed')
+        return result
+    subprocess.run = _subprocess_run
+
+
+def html_to_markdown(html):
+
+    converter = html2text.HTML2Text()
+    # handle options
+    converter.ul_item_mark = '*'
+    converter.emphasis_mark = '*'
+    converter.strong_mark = '**'
+
+    converter.body_width = 78 # per [rfc5322]
+    # [rfc5322]: https://tools.ietf.org/html/rfc5322
+    converter.list_indent = 4
+    converter.ignore_images = True
+    converter.google_doc = False
+
+    return converter.handle(html)
+
+
+def create_email(subject, from_address, to_address, html):
+
+    # Create message container - the correct MIME type is multipart/alternative.
+    msg = email.mime.multipart.MIMEMultipart('alternative')
+    msg['Subject'] = 'SSCDelft News - subject'
+    msg['From'] = from_address
+    msg['To'] = to_address
+
+    text = html_to_markdown(html)
+
+    # Record the MIME types of both parts - text/plain and text/html.
+    part1 = email.mime.text.MIMEText(text, 'plain')
+    part2 = email.mime.text.MIMEText(html, 'html')
+
+    # Attach parts into message container.
+    # According to RFC 2046, the last part of a multipart message, in this case
+    # the HTML message, is best and preferred.
+    msg.attach(part1)
+    msg.attach(part2)
+
+    return msg
+
+
+def mail_new_news_items(
+        remote_repository, from_address, to_address,
+        ignore_dirty_working_tree=False, ignore_out_of_sync_remote=False,
+        commit_sent=True):
+
+    if not ignore_dirty_working_tree:
+        # assert this checkout is clean
+        git = subprocess.run(
+            ['git', 'status', '--porcelain'], stdout=subprocess.PIPE,
+            check=True, universal_newlines=True)
+        if git.stdout.strip():
+            print(
+                'ERROR: This repository is not clean.  Please commit or stash '
+                ' the changes.')
+            raise SystemExit(1)
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+
+        # clone remote repository in a tmpdir
+        subprocess.run(
+            ['git', 'clone', '--reference', '.', remote_repository, tmpdir],
+            check=True)
+
+        if not ignore_out_of_sync_remote:
+            # assert this checkout is up-to-date with github/master
+            git_local = subprocess.run(
+                ['git', 'rev-parse', 'HEAD'],
+                stdout=subprocess.PIPE, check=True)
+            git_remote = subprocess.run(
+                ['git', 'rev-parse', 'HEAD'],
+                stdout=subprocess.PIPE, check=True, cwd=tmpdir)
+            if git_local.stdout != git_remote.stdout:
+                print(
+                    'ERROR: Local and remote repositories have different '
+                    'HEADs.  Make sure that the local repository is '
+                    'up-to-date with remote\'s master branch and vice versa.')
+                raise SystemExit(1)
+
+        # replace posts layout with mail layout
+        os.rename(
+            os.path.join(tmpdir, '_layouts', 'mail-news.html'),
+            os.path.join(tmpdir, '_layouts', 'post.html'))
+
+        # build site
+        subprocess.run(
+            ['bundle', 'exec', 'jekyll', 'build', '--source', tmpdir,
+                '--layout', os.path.join(tmpdir, '_layouts'),
+                '--destination', os.path.join(tmpdir, '_site')],
+            check=True)
+
+        # loop over all news items not present as mails
+        news_dir = os.path.abspath(os.path.join(tmpdir, '_site', 'news'))
+        sent_dir = '_sent_mail'
+        unsent = []
+        sent_or_ignored = False
+        for root, dirs, files in os.walk(news_dir):
+            assert root.startswith(news_dir)
+            root = root[len(news_dir):]
+            while root.startswith('/'):
+                root = root[1:]
+            for file in files:
+                if file == 'index.html':
+                    continue
+                dst = os.path.join(sent_dir, root, file[:-4] + 'mail')
+                src = os.path.join(news_dir, root, file)
+                if file.endswith('.html') and not os.path.exists(dst):
+                    unsent.append((src, dst))
+
+        for src, dst in unsent:
+            print('unsent news item: {}'.format(file))
+            print()
+
+            with open(src) as f:
+                html = f.read()
+
+            # find title
+            subject = re.search(
+                '{}(.*){}'.format(
+                    re.escape('<title>'), re.escape('</title>')),
+                html)
+            assert subject
+            subject = subject.group(1)
+            msg = create_email(
+                subject=subject,
+                from_address=from_address,
+                to_address=to_address,
+                html=html)
+
+            print()
+            print('  Subject: {}'.format(subject))
+            print()
+            for line in html_to_markdown(html).split('\n'):
+                print('  ' + line)
+            print()
+
+            response = None
+            while response not in {'yes', 'no', 'never'}:
+                response = input(
+                    'send this mail to {}? [yes/no/never] '.format(to_address))
+                response = response.strip()
+
+            if response == 'no':
+                continue
+
+            sent_or_ignored = True
+
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            with open(dst + '.tmp', 'w') as f:
+                f.write(msg.as_string())
+
+            if response == 'yes':
+                print()
+                print('sending...')
+                with open(dst + '.tmp') as f:
+                    subprocess.run(
+                        ['/usr/sbin/sendmail', '-i', '-t'],
+                        stdin=f, check=True)
+                print()
+                print('done')
+
+            os.rename(dst + '.tmp', dst)
+
+    if sent_or_ignored:
+        if commit_sent:
+            subprocess.run(['git', 'add', '_sent_mail'], check=True)
+            subprocess.run(['git', 'commit', '-m', 'sent mail'], check=True)
+            print()
+            print('please push the new commit to the remote repository')
+    else:
+        print('done')
+
+
+if __name__ == '__main__':
+
+    mail_kwargs = dict(
+        remote_repository='https://github.com/sscdelft/sscdelft.github.io',
+        from_address='SIAMSC-EWI@tudelft.nl',
+        to_address='SIAMSC-EWI@tudelft.nl')
+
+    args = iter(sys.argv)
+    next(args)
+    for arg in args:
+        if arg.startswith('--test=') or arg == '--test':
+            if '=' in arg:
+                address = arg[7:]
+            else:
+                address = next(args)
+            mail_kwargs.update(
+                from_address=address,
+                to_address=address,
+                ignore_dirty_working_tree=True,
+                ignore_out_of_sync_remote=True,
+                commit_sent=False)
+        else:
+            print('unknown argument: {}'.format(arg))
+            raise SystemExit(1)
+
+    mail_new_news_items(**mail_kwargs)
