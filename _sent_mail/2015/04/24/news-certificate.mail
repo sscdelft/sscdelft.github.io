@@ -1,0 +1,35 @@
+Content-Type: multipart/alternative; boundary="===============3639620085376684380=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============3639620085376684380==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Today Joost van Zwieten, webmaster of the chapter and one of the founding
+fathers of project baNaNa, received the annual SIAM Certificate of Recognition
+for his great contributions to the chapter.
+
+
+--===============3639620085376684380==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - SIAM Certificate of Recognition</title>
+  </head>
+  <body>
+    <p>Today Joost van Zwieten, webmaster of the chapter and one of the founding
+fathers of project baNaNa, received the annual SIAM Certificate of Recognition
+for his great contributions to the chapter.</p>
+
+  </body>
+</html>
+
+--===============3639620085376684380==--

@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative; boundary="===============1377565963599018972=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============1377565963599018972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Dear all,
+
+The SIAM activity group on linear algebra included the report about our
+chapter in their monthly DIGEST. More information see
+[this](http://siags.siam.org/siagla//2016/03/07/digest.html) website.
+
+
+--===============1377565963599018972==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - SIAM Activity Group on Linear Algebra</title>
+  </head>
+  <body>
+    <p>Dear all,</p>
+
+<p>The SIAM activity group on linear algebra included the report about our
+chapter in their monthly DIGEST. More information see <a href="http://siags.siam.org/siagla//2016/03/07/digest.html">this</a> website.</p>
+
+
+  </body>
+</html>
+
+--===============1377565963599018972==--

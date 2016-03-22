@@ -1,0 +1,52 @@
+Content-Type: multipart/alternative; boundary="===============3471118684982480330=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============3471118684982480330==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Hi all,
+
+We would like to announce our official Chapter Kick-off Meeting on September
+19th, at 16:00 in the Dijkstrazaal (HB09.150). During the kick-off we will:
+
+  * have two talks by [Kees Vuik](http://ta.twi.tudelft.nl/users/vuik/) and [Alex Sangers](http://alexsangers.weblog.tudelft.nl/),
+  * discuss future activities of the chapter and
+  * get-together and eat cake!
+
+We hope to see you there!
+
+
+--===============3471118684982480330==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - Kickoff Meeting, September 19th</title>
+  </head>
+  <body>
+    <p>Hi all,</p>
+
+<p>We would like to announce our official Chapter Kick-off Meeting on September
+19th, at 16:00 in the Dijkstrazaal (HB09.150). During the kick-off we will:</p>
+
+<ul>
+  <li>have two talks by <a href="http://ta.twi.tudelft.nl/users/vuik/">Kees Vuik</a> and <a href="http://alexsangers.weblog.tudelft.nl/">Alex Sangers</a>,</li>
+  <li>discuss future activities of the chapter and</li>
+  <li>get-together and eat cake!</li>
+</ul>
+
+<p>We hope to see you there!</p>
+
+
+  </body>
+</html>
+
+--===============3471118684982480330==--

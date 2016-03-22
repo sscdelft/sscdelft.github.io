@@ -1,0 +1,37 @@
+Content-Type: multipart/alternative; boundary="===============6252227714853672641=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============6252227714853672641==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Dear all,
+
+This is to let you know that we wrote a [news item](/images/SIAM_news.pdf) to
+SIAM about the Krylov Day.
+
+
+--===============6252227714853672641==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - Nested news item</title>
+  </head>
+  <body>
+    <p>Dear all,</p>
+
+<p>This is to let you know that we wrote a <a href="/images/SIAM_news.pdf">news item</a> to SIAM about the Krylov Day.</p>
+
+
+  </body>
+</html>
+
+--===============6252227714853672641==--

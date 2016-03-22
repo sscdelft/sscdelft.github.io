@@ -1,0 +1,34 @@
+Content-Type: multipart/alternative; boundary="===============1266050310187089482=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============1266050310187089482==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Great news! Two of our friends from the [SIAM Student Chapter in
+Magdeburg](http://www.siamchapter.ovgu.de/) will join the
+[KD15](http://sscdelft.github.io/activities/2015/02/02/krylov-day.html).
+
+
+--===============1266050310187089482==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - Student Chapter Magdeburg at KD15</title>
+  </head>
+  <body>
+    <p>Great news! Two of our friends from the <a href="http://www.siamchapter.ovgu.de/">SIAM Student Chapter in Magdeburg</a> will join the <a href="http://sscdelft.github.io/activities/2015/02/02/krylov-day.html">KD15</a>.</p>
+
+
+  </body>
+</html>
+
+--===============1266050310187089482==--

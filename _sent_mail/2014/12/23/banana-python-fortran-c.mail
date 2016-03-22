@@ -1,0 +1,41 @@
+Content-Type: multipart/alternative; boundary="===============5584650258999109839=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============5584650258999109839==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+The final baNaNa lecture of 2014 was given at December 18. Xiaozhou and Joost
+discussed the combination of Python, a flexible but not particularly fast
+scripting language, with Fortran and C, programming languages suitable for
+high performance computing. For more information and examples, see
+[this](http://projectbanana.github.io/given_lecture/2014/12/18/Python.html)
+site.
+
+
+--===============5584650258999109839==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - baNaNa talk on Python, Fortran and C</title>
+  </head>
+  <body>
+    <p>The final baNaNa lecture of 2014 was given at December 18.  Xiaozhou and Joost
+discussed the combination of Python, a flexible but not particularly fast
+scripting language, with Fortran and C, programming languages suitable for high
+performance computing.  For more information and examples, see
+<a href="http://projectbanana.github.io/given_lecture/2014/12/18/Python.html">this</a> site.</p>
+
+
+  </body>
+</html>
+
+--===============5584650258999109839==--

@@ -1,0 +1,31 @@
+Content-Type: multipart/alternative; boundary="===============9141842934660040114=="
+MIME-Version: 1.0
+Subject: SSCDelft News - subject
+From: joostvanzwieten@gmail.com
+To: joostvanzwieten@gmail.com
+
+--===============9141842934660040114==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+The annual Student Chapter BBQ is scheduled for June 5, 2015.
+
+
+--===============9141842934660040114==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSCDelft News - Annual BBQ</title>
+  </head>
+  <body>
+    <p>The annual Student Chapter BBQ is scheduled for June 5, 2015.</p>
+
+  </body>
+</html>
+
+--===============9141842934660040114==--
