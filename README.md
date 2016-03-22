@@ -65,6 +65,40 @@ Guidelines:
 
         [An Event]: {{ site.baseurl }}/activities/YYYY-MM-DD/an-event.html
 
+
+Semi-automatically mailing news items
+-------------------------------------
+
+The python3 script `mail-news` can automatically send news items to all the
+members of the student chapter (based on the [members repository]).  The html
+layout of the mail is located in `_layouts/mail-news.html`.  The script requires
+that there are no local changes in the working tree or repository with respect
+to the [main repository] to make sure that the news items have been published
+and are not going to be changed.
+
+Run the script without arguments in the root of the repository,
+
+    ./mail-news
+
+The script loops over all unset news items — a news item is sent if there is a
+file in the folder `_sent_mail/` with the same name as the news item — asks
+your permission to send a mail and stores a file in the `_sent_mail` directory.
+Finally, the script commits the `_sent_mail/` folder and asks you to manually
+push this commit to the [main repository].
+
+To test mailing news items run the script with extra arguments `--test` and your
+email address, e.g.
+
+    ./mail-news --test your.email.address@some.domain
+
+In the 'test' mode local changes in the working tree or repository are allowed,
+mail will be sent to the supplied address only, not to the members, and news
+items will not be marked as sent, i.e. the `_sent_mail/` directory will not be
+updated.
+
+[members repository]: https://github.com/sscdelft/Members
+[main repository]: https://github.com/sscdelft/sscdelft.github.io
+
 Activities
 ----------
 
