@@ -6,10 +6,13 @@ redirect_from: "/cfd16/"
 The SIAM Student Chapter at TU Delft is organizing a **Student Computational Finance Day 2016** 
 which is going to take place on May 23rd 2016.
 
-The meeting will be a one-day workshop of PhD students that are working in the field of computational finance. 
-We are happy to announce the participation of professor Kees Oosterlee as a keynote speaker. 
-Kees is an expert in the field of computational finance and will give an overview talk during the workshop, 
-in which he will introduce several interesting topics regarding computational finance.
+The meeting will be a one-day workshop of PhD students that are working in the field of computational finance.
+We are happy to announce the participation of Doctor Drona Kandhai and Professor Kees Oosterlee as keynote speakers.
+Drona is Head Front-Office Quantitative Analytics at ING Bank and assistant Professor at the University of Amsterdam. 
+Because of his work experience in both academics and industry, he can give an interesting insight in both worlds. 
+His talk will be mostly on the use of computational finance in the daily work at ING Bank. Kees is an expert in the 
+field of computational finance and will give an overview talk during the workshop, in which he will introduce several 
+interesting topics regarding computational finance.
 
 Confirmed speakers are:
 
@@ -22,6 +25,8 @@ Confirmed speakers are:
    * [Anastasia Borovykh], University of Bologna
    * [Shih-Hau Tan], University of Greenwich
    * [Gemma Colldeforns Papiol], CRM Barcelona
+   * [Slobodan Milovanović], Uppsala University
+   * [Drona Kandhai], ING bank & University of Amsterdam
    
 The final program is not yet available.
 
@@ -37,5 +42,7 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
 [Anastasia Borovykh]: https://www.unibo.it/sitoweb/anastasia.borovykh2/en 
 [Shih-Hau Tan]: http://staffweb.cms.gre.ac.uk/~ts73/ 
 [Gemma Colldeforns Papiol]: http://www.crm.cat/en/About/People/Researchers/gcolldeforns/Pages/PersonalContact.aspx?ItemId=CO004592 
+[Slobodan Milovanović]: http://www.it.uu.se/katalog/slomi453
+[Drona Kandhai]: http://www.uva.nl/profile/b.d.Kandhai
 
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
