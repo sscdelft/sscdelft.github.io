@@ -1,4 +1,4 @@
-i---
+---
 layout: post
 title: "Student Computational Finance Day 2016"
 redirect_from: "/cfd16/"
