@@ -1,4 +1,4 @@
----
+i---
 layout: post
 title: "Student Computational Finance Day 2016"
 redirect_from: "/cfd16/"
@@ -9,7 +9,7 @@ which is going to take place on May 23rd 2016.
 The meeting will be a one-day workshop of PhD students that are working in the field of computational finance.
 We are happy to announce the participation of Doctor Drona Kandhai and Professor Kees Oosterlee as keynote speakers.
 Drona is Head Front-Office Quantitative Analytics at ING Bank and assistant Professor at the University of Amsterdam. 
-Because of his work experience in both academics and industry, he can give an interesting insight in both worlds. 
+Because of his work experience in both academics and industry, he can give an interesting insight into both worlds. 
 His talk will be mostly on the use of computational finance in the daily work at ING Bank. Kees is an expert in the 
 field of computational finance and will give an overview talk during the workshop, in which he will introduce several 
 interesting topics regarding computational finance.
