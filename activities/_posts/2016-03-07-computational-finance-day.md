@@ -31,9 +31,9 @@ Confirmed speakers are:
    * [Drona Kandhai], ING bank & University of Amsterdam
    * [Fang Fang], Rabobank
    
-The final program is not yet available.
+The final program is now [available].
 
-Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
+Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Dijkstrazaal, HB 09.150.
          |Mekelweg 4, 2628 CD  Delft, The Netherlands. (How to get [there])
 
 [Fei Cong]: http://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/numerical-analysis/people/phd-studenten/ir-f-cong/
@@ -50,3 +50,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica.
 [Fang Fang]: https://nl.linkedin.com/in/fang-fang-049b369
 
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
+[available]:  {{ site.baseurl }}/images/CFday_program.pdf
