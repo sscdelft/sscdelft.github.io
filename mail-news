@@ -1,0 +1,528 @@
+#! /usr/bin/env python3
+
+
+import os
+import subprocess
+import tempfile
+import email.mime.text
+import email.mime.multipart
+import re
+import sys
+import csv
+import shutil
+
+import html.parser
+import textwrap
+import collections
+
+
+class Element:
+    def __init__(self, children):
+        self.children = tuple(children)
+    @property
+    def nonempty_children(self):
+        for child in self.children:
+            if isinstance(child, Text) and not child.text.strip():
+                continue
+            yield child
+    @property
+    def _children_inline(self):
+        return all(child._is_inline for child in self.children)
+
+
+class Block(Element):
+    def __init__(self, children):
+        grouped_children = []
+        inline = None
+        for child in children:
+            if isinstance(child, Text) and not child.text.strip():
+                pass
+            elif child._is_inline:
+                if inline is None:
+                    inline = []
+                inline.append(child)
+            else:
+                if inline is not None:
+                    grouped_children.append(Group(inline))
+                    inline is None
+                grouped_children.append(child)
+        if inline is not None:
+            grouped_children.append(Group(inline))
+        super().__init__(grouped_children)
+    @property
+    def _is_inline(self):
+        return False
+    def format(self, anchors, **style):
+        for i, child in enumerate(self.nonempty_children):
+            if i:
+                yield '', '', ''
+            yield from child.format(anchors, **style)
+
+
+class Group(Element):
+    @property
+    def _is_inline(self):
+        return False
+    def format(self, anchors, **style):
+        assert self._children_inline
+        yield '', '', ''.join(child.format_inline(anchors) for child in self.children)
+
+
+class H(Block):
+    def __init__(self, level, children):
+        self.level = level
+        super().__init__([Group(children)])
+    def format(self, anchors, **style):
+        n = []
+        for p, fp, l in self.children[0].format(anchors, **style):
+            yield p, fp, l
+            n.append(len(l))
+        yield p, fp, '=-'[self.level] * max(n)
+
+
+class UL(Block):
+    def format(self, anchors, **style):
+        style.pop('li', None)
+        for i, child in enumerate(self.nonempty_children):
+            if i:
+                yield '', '', ''
+            yield from child.format(anchors, li='*', **style)
+
+class OL(Block):
+    def format(self, anchors, **style):
+        style.pop('li', None)
+        for i, child in enumerate(self.nonempty_children):
+            if i:
+                yield ''
+            yield from child.format(anchors, li='{}.'.format(i), **style)
+
+
+class LI(Block):
+    def format(self, anchors, **style):
+        for i, (p, fp, l) in enumerate(super().format(anchors, **style)):
+            fp = ('' if i else style['li']).ljust(style['indent']) + fp
+            p = ''.ljust(style['indent']) + p
+            yield p, fp, l
+
+
+class Inline(Element):
+    def __init__(self, children):
+        super().__init__(children)
+        assert self._children_inline
+    @property
+    def _is_inline(self):
+        return self._children_inline
+    def format(self, anchors, **style):
+        raise TypeError
+        assert self._is_inline
+        yield '', '', self.format_inline(anchors)
+
+
+class Strong(Inline):
+    def format_inline(self, anchors):
+        content = ''.join(child.format_inline(anchors) for child in self.children)
+        return '**{}**'.format(content.strip())
+
+
+class Emph(Inline):
+    def format_inline(self, anchors):
+        content = ''.join(child.format_inline(anchors) for child in self.children)
+        return '*{}*'.format(content.strip())
+
+
+class Anchor(Inline):
+    def __init__(self, href, children):
+        self.href = href
+        super().__init__(children)
+    def format_inline(self, anchors):
+        content = ''.join(child.format_inline(anchors) for child in self.children)
+        if self.href in anchors:
+            href_key = anchors[self.href]
+        else:
+            href_key = len(anchors) + 1
+            anchors[self.href] = href_key
+        return '{} [{}]'.format(content.strip(), href_key)
+
+
+class Text(Inline):
+    def __init__(self, text):
+        self.text = text
+        super().__init__(())
+    def format_inline(self, anchors):
+        return re.subn('\\s+', ' ', self.text, flags=re.MULTILINE)[0]
+    def _is_inline(self):
+        return True
+
+
+class Tag:
+    def __init__(self, name, attrs=()):
+        self.name = name
+        self.attrs = {a[0]: (a[1] if len(a) == 2 else None) for a in attrs}
+        self.children = []
+    def convert(self):
+        children = (
+            Text(child) if isinstance(child, str) else child.convert()
+            for child in self.children)
+        if self.name in {'p', 'div', 'body', 'footer'}:
+            return Block(children)
+        elif self.name == 'ol':
+            return OL(children)
+        elif self.name == 'ul':
+            return UL(children)
+        elif self.name == 'a':
+            return Anchor(self.attrs['href'], children)
+        elif self.name in {'strong', 'b'}:
+            return Strong(children)
+        elif self.name in {'em', 'i'}:
+            return Emph(children)
+        elif self.name == 'li':
+            return LI(children)
+        elif self.name == 'h1':
+            return H(0, children)
+        elif self.name == 'h2':
+            return H(1, children)
+        elif self.name == 'br':
+            return Text('')
+        else:
+            raise ValueError(self.name)
+
+
+class HTMLParser(html.parser.HTMLParser):
+    def __init__(self):
+        self.root = Tag('doc')
+        self.body = None
+        self.tags = [self.root]
+        super().__init__()
+    def handle_starttag(self, name, attrs):
+        tag = Tag(name, attrs)
+        if self.body is None and name == 'body':
+            self.body = tag
+        self.tags[-1].children.append(tag)
+        self.tags.append(tag)
+    def handle_endtag(self, name):
+        assert self.tags[-1].name == name, 'mismatched tag'
+        del self.tags[-1]
+    def handle_data(self, data):
+        self.tags[-1].children.append(data)
+
+
+def html_to_markdown(html, anchors_at_end=True):
+
+    parser = HTMLParser()
+
+    parser.feed(html)
+
+    t = parser.body.convert()
+    anchors = collections.OrderedDict()
+    old_anchors = set()
+    output = []
+    for p, fp, l in t.format(anchors, indent=4):
+        if not l:
+            output.append('')
+        for line in textwrap.wrap(l, initial_indent=fp, subsequent_indent=p, width=80):
+            output.append(line)
+        new_anchors = tuple(key for key in anchors if key not in old_anchors)
+        if new_anchors and not anchors_at_end:
+            output.append('')
+            for key in new_anchors:
+                output.append('{}[{}]: {}'.format(p, anchors[key], key))
+        old_anchors = set(anchors)
+    if anchors and anchors_at_end:
+        output.append('')
+        for href, key in anchors.items():
+            output.append('{}[{}]: {}'.format(p, key, href))
+
+    return ''.join(map('{}\n'.format, output))
+
+
+
+
+if not hasattr(subprocess, 'run'):
+    class Result: pass
+    def _subprocess_run(*args, check=False, **kwargs):
+        process = subprocess.Popen(*args, **kwargs)
+        result = Result()
+        result.stdout, result.stderr = process.communicate()
+        result.returncode = process.returncode
+        if process.returncode != 0:
+            raise ValueError('command failed')
+        return result
+    subprocess.run = _subprocess_run
+
+
+def run_silent(*args, **kwargs):
+
+    assert len(args) >= 1
+    process = subprocess.Popen(
+        *args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs)
+    stdout, stderr = process.communicate()
+    if process.returncode == 0:
+        return
+    print('ERROR: command failed: {}'.format(' '.join(map(repr, args[0]))))
+    print('output:')
+    print(stdout.decode('utf8') if isinstance(stdout, bytes) else stdout)
+    print(stderr.decode('utf8') if isinstance(stderr, bytes) else stderr)
+    raise SystemExit(1)
+
+
+def create_email(subject, from_address, to_address, bcc, html):
+
+    # Create message container - the correct MIME type is multipart/alternative.
+    msg = email.mime.multipart.MIMEMultipart('alternative')
+    msg['Subject'] = 'SSCDelft News - subject'
+    msg['From'] = from_address
+    msg['To'] = to_address
+    msg['BCC'] = ', '.join(bcc)
+
+    text = html_to_markdown(html)
+
+    # Record the MIME types of both parts - text/plain and text/html.
+    part1 = email.mime.text.MIMEText(text, 'plain')
+    part2 = email.mime.text.MIMEText(html, 'html')
+
+    # Attach parts into message container.
+    # According to RFC 2046, the last part of a multipart message, in this case
+    # the HTML message, is best and preferred.
+    msg.attach(part1)
+    msg.attach(part2)
+
+    return msg
+
+
+def get_recipients(remote_repository, members_file_name, email_field_name):
+
+    print('downloading members list...')
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+
+        # clone remote repository in a tmpdir
+        run_silent([
+            'git', 'clone', '--reference', '.', '--depth', '1',
+            remote_repository, tmpdir])
+
+        # read src
+        recipients = []
+        with open(os.path.join(tmpdir, members_file_name), 'r') as f_src:
+            reader = csv.DictReader(f_src)
+            for row in reader:
+                recipients.append(row[email_field_name])
+
+    return recipients
+
+
+def mail_new_news_items(
+        remote_repository, from_address, to_address, bcc,
+        ignore_dirty_working_tree=False, ignore_out_of_sync_remote=False,
+        commit_sent=True, mark_sent=True):
+
+    # assert this checkout is clean
+    git = subprocess.run(
+        ['git', 'status', '--porcelain'], stdout=subprocess.PIPE,
+        check=True, universal_newlines=True)
+    dirty_working_tree = git.stdout.strip()
+    if dirty_working_tree:
+        if ignore_dirty_working_tree:
+            print(
+                'WARNING: This repository is not clean.  Please commit or '
+                'stash the changes.')
+        else:
+            print(
+                'ERROR: This repository is not clean.  Please commit or stash '
+                ' the changes.')
+            raise SystemExit(1)
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+
+        print('cloning remote repository')
+
+        if remote_repository != 'working tree':
+            # clone remote repository in a tmpdir
+            run_silent([
+                'git', 'clone', '--reference', '.', '--depth', '1',
+                remote_repository, tmpdir])
+        elif dirty_working_tree:
+            print(
+                'WARNING: using local dirty working tree instead of the '
+                'remote repository')
+            tmpdir = os.path.join(tmpdir, 'repo')
+            ignore = lambda r, c: tuple({'.git', '.bundle'} & set(c))
+            shutil.copytree('.', tmpdir, ignore=ignore)
+        else:
+            print('WARNING: using local HEAD instead of the remote repository')
+            pack = subprocess.Popen(
+                ['git', 'archive', '--format=tar', 'HEAD'],
+                stdout=subprocess.PIPE)
+            unpack = subprocess.Popen(
+                ['tar', 'x'], cwd=tmpdir, stdin=pack.stdout)
+            pack.wait()
+            unpack.wait()
+
+        if not ignore_out_of_sync_remote:
+            # assert this checkout is up-to-date with github/master
+            git_local = subprocess.run(
+                ['git', 'rev-parse', 'HEAD'],
+                stdout=subprocess.PIPE, check=True)
+            git_remote = subprocess.run(
+                ['git', 'rev-parse', 'HEAD'],
+                stdout=subprocess.PIPE, check=True, cwd=tmpdir)
+            if git_local.stdout != git_remote.stdout:
+                print(
+                    'ERROR: Local and remote repositories have different '
+                    'HEADs.  Make sure that the local repository is '
+                    'up-to-date with remote\'s master branch and vice versa.')
+                raise SystemExit(1)
+
+        # replace posts layout with mail layout
+        shutil.move(
+            os.path.join(tmpdir, '_layouts', 'mail-news.html'),
+            os.path.join(tmpdir, '_layouts', 'post.html'))
+
+        print('searching for unsent emails')
+
+        # build site
+        run_silent([
+            'bundle', 'exec', 'jekyll', 'build', '--source', tmpdir,
+            '--layout', os.path.join(tmpdir, '_layouts'), '--destination',
+            os.path.join(tmpdir, '_site')])
+
+        # loop over all news items not present as mails
+        news_dir = os.path.abspath(os.path.join(tmpdir, '_site', 'news'))
+        sent_dir = '_sent_mail'
+        unsent = []
+        sent_or_ignored = False
+        for root, dirs, files in os.walk(news_dir):
+            assert root.startswith(news_dir)
+            root = root[len(news_dir):]
+            while root.startswith('/'):
+                root = root[1:]
+            for file in files:
+                if file == 'index.html':
+                    continue
+                mark = os.path.join(sent_dir, root, file[:-5])
+                src = os.path.join(news_dir, root, file)
+                if file.endswith('.html') and not os.path.exists(mark):
+                    unsent.append((src, mark))
+
+        for src, mark in unsent:
+            print()
+            print('unsent news item: {}'.format(mark[len(sent_dir)+1:]))
+
+            with open(src) as f:
+                html = f.read()
+
+            # find title
+            subject = re.search(
+                '{}(.*){}'.format(
+                    re.escape('<title>'), re.escape('</title>')),
+                html)
+            assert subject
+            subject = subject.group(1)
+            msg = create_email(
+                subject=subject,
+                from_address=from_address,
+                to_address=to_address,
+                bcc=bcc,
+                html=html)
+
+            print()
+            print('  Subject: {}'.format(subject))
+            print('  From: {}'.format(from_address))
+            print('  To: {}'.format(to_address))
+            print('  BCC: [{} recipients]'.format(len(bcc)))
+            print()
+            for line in html_to_markdown(html).split('\n'):
+                print('  ' + line)
+            print()
+
+            response = None
+            while response not in {'yes', 'no', 'never'}:
+                response = input(
+                    'send this mail to {}? [yes/no/never] '.format(to_address))
+                response = response.strip()
+
+            if response == 'no':
+                continue
+
+            with tempfile.TemporaryDirectory() as tmp_mail_dir:
+
+                mail_dst = os.path.join(tmp_mail_dir, 'mail')
+                with open(mail_dst, 'w') as f:
+                    f.write(msg.as_string())
+
+                if response == 'yes':
+                    print()
+                    print('sending...')
+                    with open(mail_dst) as f:
+                        run_silent(['/usr/sbin/sendmail', '-i', '-t'], stdin=f)
+                    print()
+                    print('done')
+
+                if mark_sent:
+                    os.makedirs(os.path.dirname(mark), exist_ok=True)
+                    with open(mark, 'w') as f:
+                        if response == 'yes':
+                            print('sent', file=f)
+                        elif response == 'never':
+                            print('ignored', file=f)
+                    sent_or_ignored = True
+
+    if sent_or_ignored:
+        if commit_sent:
+            run_silent(['git', 'add', '_sent_mail'])
+            run_silent(['git', 'commit', '-m', 'sent mail'])
+            print()
+            print('please push the new commit to the remote repository')
+    else:
+        print('done')
+
+
+if __name__ == '__main__':
+
+    recipients_kwargs = dict(
+        remote_repository='https://github.com/sscdelft/Members.git',
+        members_file_name='members_list.csv',
+        email_field_name='email')
+    mail_kwargs = dict(
+        remote_repository='https://github.com/sscdelft/sscdelft.github.io.git',
+        from_address='SIAMSC-EWI@tudelft.nl',
+        to_address='SIAMSC-EWI@tudelft.nl')
+
+    args = iter(sys.argv)
+    next(args)
+    test = False
+    for arg in args:
+        if arg.startswith('--test=') or arg == '--test':
+            if '=' in arg:
+                address = arg[7:]
+            else:
+                address = next(args)
+            test = True
+            mail_kwargs.update(
+                remote_repository='working tree',
+                from_address=address,
+                to_address=address,
+                ignore_dirty_working_tree=True,
+                ignore_out_of_sync_remote=True,
+                commit_sent=False,
+                mark_sent=False)
+        else:
+            print('unknown argument: {}'.format(arg))
+            raise SystemExit(1)
+
+    if test:
+        print('skipping recipients')
+        recipients = ()
+    else:
+        recipients = get_recipients(**recipients_kwargs)
+        print()
+        print('recipients:')
+        for recipient in recipients:
+            print('  {}'.format(recipient))
+        print()
+    mail_kwargs['bcc'] = recipients
+
+    mail_new_news_items(**mail_kwargs)
+    if test:
+        print(
+            'INFO: no news items have been marked as sent because this is a '
+            'test run')
