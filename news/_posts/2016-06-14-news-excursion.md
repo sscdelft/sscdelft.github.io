@@ -13,11 +13,5 @@ You can sign up via the [doodle].
 
 Here is a [link] discussing some of the mathematical background of Escher’s work with a focus on Hyperbolic Geometry.
 
-
-Kind regards,
-
-The SIAM Student Chapter board
-
-
 [doodle]: http://doodle.com/poll/826c578qbz8euh8k
 [link]: http://www.math.cornell.edu/~mec/Winter2009/Mihai/
