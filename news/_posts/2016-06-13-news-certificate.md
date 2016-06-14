@@ -11,5 +11,5 @@ attached_media:
     thumb: "{{ site.baseurl }}/images/2016-06-10-news-certificate/20160610_160802-thumb.jpg"
 ---
 
-Today Tea Vuik, former secretary and treasurer of the chapter, received the annual SIAM Certificate of Recognition
+Today Thea Vuik, former secretary and treasurer of the chapter, received the annual SIAM Certificate of Recognition
 for her great contributions to the chapter.
