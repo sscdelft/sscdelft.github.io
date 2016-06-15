@@ -269,7 +269,7 @@ def create_email(subject, from_address, to_address, bcc, html):
 
     # Create message container - the correct MIME type is multipart/alternative.
     msg = email.mime.multipart.MIMEMultipart('alternative')
-    msg['Subject'] = 'SSCDelft News - subject'
+    msg['Subject'] = subject
     msg['From'] = from_address
     msg['To'] = to_address
     msg['BCC'] = ', '.join(bcc)
