@@ -10,6 +10,8 @@ members. On previous movie nights we watched following movies:
 
 * [Enigma]
 * [The Theory of Everything]
+* [21]
 
 [Enigma]: {{ site.baseurl }}/news/2015/03/01/news-movie.html
 [The Theory of Everything]: {{ site.baseurl }}/news/2016/02/26/movie-night.html
+[21]: {{ site.baseurl }}/news/2016/07/04/movie-night.html
