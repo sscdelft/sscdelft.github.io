@@ -18,9 +18,6 @@ attached_media:
   - url: "{{ site.baseurl }}/images/Escher-Excursion/5.jpg"
     type: image
     thumb: "{{ site.baseurl }}/images/Escher-Excursion/5-thumb.jpg"
-  - url: "{{ site.baseurl }}/images/Escher-Excursion/6.jpg"
-    type: image
-    thumb: "{{ site.baseurl }}/images/Escher-Excursion/6-thumb.jpg"
   - url: "{{ site.baseurl }}/images/Escher-Excursion/7.jpg"
     type: image
     thumb: "{{ site.baseurl }}/images/Escher-Excursion/7-thumb.jpg"
@@ -36,6 +33,15 @@ attached_media:
   - url: "{{ site.baseurl }}/images/Escher-Excursion/11.jpg"
     type: image
     thumb: "{{ site.baseurl }}/images/Escher-Excursion/11-thumb.jpg"    
+  - url: "{{ site.baseurl }}/images/Escher-Excursion/12.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/Escher-Excursion/12-thumb.jpg"
+  - url: "{{ site.baseurl }}/images/Escher-Excursion/13.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/Escher-Excursion/13-thumb.jpg"    
+  - url: "{{ site.baseurl }}/images/Escher-Excursion/14.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/Escher-Excursion/14-thumb.jpg"    
 ---
 
 During the afternoon on Friday, July 1, the SIAM Student Chapter invites you to the Escher museum in The Hague.
