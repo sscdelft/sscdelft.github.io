@@ -10,8 +10,8 @@ student chapter can broaden their perspective of applicability of math in indust
 about interesting opportunities to continue their carrier. For examples of past company visits check 
 out the links below.
 
-* [Visit to TATA Steel]
-* [Visit to Escher museum]
+* [TATA Steel]
+* [Escher museum]
 
-[Visit to TATA Steel]: {{ site.baseurl }}/activities/2014/11/25/visit-tata-steel.html
-[Visit to Escher museum]: {{ site.baseurl }}/activities/2016/06/14/excursion.html
+[TATA Steel]: {{ site.baseurl }}/activities/2014/11/25/visit-tata-steel.html
+[Escher museum]: {{ site.baseurl }}/activities/2016/06/14/excursion.html
