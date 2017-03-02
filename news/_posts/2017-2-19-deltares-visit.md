@@ -9,6 +9,6 @@ On the 23rd of February, Deltares opens its doors for the SIAM Student Chapter D
 
 UPDATE: Unfortunately, all the places are taken, so registration is closed!
 
-For more information and the program of the visit please read the [flyer](http://sscdelft.github.io/images/DeltaresVisit2017-02-23). 
+For more information and the program of the visit please read the [flyer](http://sscdelft.github.io/images/DeltaresVisit2017-02-23.pdf). 
 
 [doodle]: http://doodle.com/poll/umayqtnenfpz89pp
