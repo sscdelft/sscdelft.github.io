@@ -11,6 +11,8 @@ below give you more information about the past research days.
 
 * [Krylov Day 2015]
 * [Computational Finance day 2016]
+* [Mathematical Modeling in Medicine day 2017]
 
 [Krylov Day 2015]: {{ site.baseurl }}/activities/2015/02/02/krylov-day.html
 [Computational Finance day 2016]: {{ site.baseurl }}/activities/2016/03/07/computational-finance-day.html
+[Mathematical Modeling in Medicine day 2017]: {{ site.baseurl }}/activities/2017/03/31/mathematical-modelling-in-medicine-day.html
