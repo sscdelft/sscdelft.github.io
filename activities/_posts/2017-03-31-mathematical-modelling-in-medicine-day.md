@@ -11,6 +11,8 @@ The meeting will be a one-day workshop of PhD students that are working in the f
 
 We are happy to announce the participation of Doctor Alessandro Sbrizzi of the University Medical Center Utrecht as keynote speaker for the morning session, and Doctor Liesbet Geris of the Katholieke Universiteit Leuven as keynote speaker for the afternoon session.
 
+If you would like to sign up you can do so by filling in the [form].
+
 Confirmed speaker are:
 
 * [Alessandro Sbrizzi], UMC Utrecht
@@ -32,3 +34,4 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Van der Poelzaal (
 [Kirsten Koolstra]: https://www.lumc.nl/org/radiologie/medewerkers/kkoolstra
 [Jeroen van Gemert]: http://cas.tudelft.nl/People/bio.php?id=336
 [Lisanne Rens]: https://www.cwi.nl/people/2672
+[form]: https://goo.gl/v56n6s
