@@ -2,7 +2,7 @@
 layout: post
 title: "Student Mathematical Modelling in Medicine day 2017"
 redirect_from: "/mmim17/"
-discontinued: false
+discontinued: true
 ---
 
 The SIAM Student Chapter at [TU Delft] is organizing a **Mathematical Modelling in Medicine Day** which is going to take place on 31st of May 2017.
@@ -11,29 +11,9 @@ The meeting will be a one-day workshop of PhD students that are working in the f
 
 We are happy to announce the participation of Doctor Alessandro Sbrizzi of the University Medical Center Utrecht as keynote speaker for the morning session, and Doctor Liesbet Geris of the Katholieke Universiteit Leuven as keynote speaker for the afternoon session.
 
-If you would like to sign up you can do so by filling in the [form].
+The programme, as well as the abstracts of all speakers can be found [here]({{ site.baseurl }}/images/2017-05-31-MMIM/MMIM_program_final_web.pdf).
 
-The preliminary programme is:
-
-| Time  | Speaker 								| Subject 													|
-| ----- | ------------------------------------- | --------------------------------------------------------- |
-| 09:00 | 										| Registration 												|
-| 09:30 | [Alessandro Sbrizzi], UMC Utrecht 	| Mathematical Modeling in Magnetic Resonance Imaging 		|
-| 10:10 | [Anna Kruseman], UMC Utrecht 			| Model-based reconstruction methods 						|
-| 10:35 |  										| Coffee Break												|
-| 11:00 | [Jeroen van Gemert], TU Delft			| Modeling and Designing High Permittivity Pads for MRI (1) |
-| 11:25 | [Kirsten Koolstra], LUMC				| Modeling and Designing High Permittivity Pads for MRI (2) |
-| 12:00 | 										| Lunch 													|
-| 13:15 | [Liesbet Geris], KU Leuven 			| Computational bone tissue engineering						|
-| 13:55 | [Esmée Vendel], Leiden University 	| Towards a brain spatial drug distribution model			|
-| 14:20 | [Jiao Chen], TU Delft					| Model for cell migration in non-isotropic fibrin networks |
-| 14:45 |  										| Coffee Break												|
-| 15:00 | [Lisanne Rens], Leiden University, CWI| Hybrid model for cell response to substrate stiffness		|
-| 15:25 | [Anja Rüten-Budde], Leiden University | The effect of surgical margins on disease progression 	|
-| 15:50 | [Richard Beck], Leiden University 	| 	|
-| 16:15 | 										| Closing remarks 											|
-| 16:30 | 										| Drinks 													|
-| 18:00 | 										| BBQ 														|
+The workshopday was be held at:
 
 Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Van der Poelzaal (LB01.220).
          |Mekelweg 4, 2628 CD  Delft, The Netherlands. (How to get [there])
