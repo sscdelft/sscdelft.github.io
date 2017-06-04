@@ -4,21 +4,21 @@ title: "Student Mathematical Modelling in Medicine day 2017"
 redirect_from: "/mmim17/"
 discontinued: true
 attached_media:
-      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob.jpg"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob.JPG"
         type: image
-        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob-thumb.jpg"
-      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/computer.jpg"
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob-thumb.JPG"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/computer.JPG"
         type: image
-        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/computer-thumb.jpg"
-      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/lunch.jpg"
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/computer-thumb.JPG"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/lunch.JPG"
         type: image
-        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/lunch-thumb.jpg"
-      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/afternoon_crowd.jpg"
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/lunch-thumb.JPG"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/afternoon_crowd.JPG"
         type: image
-        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/afternoon_crowd-thumb.jpg"
-      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/drinks.jpg"
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/afternoon_crowd-thumb.JPG"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/drinks.JPG"
         type: image
-        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/drinks-thumb.jpg"
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/drinks-thumb.JPG"
 ---
 
 The SIAM Student Chapter at [TU Delft] is organizing a **Mathematical Modelling in Medicine Day** which is going to take place on 31st of May 2017.
