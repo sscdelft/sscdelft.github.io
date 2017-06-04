@@ -2,7 +2,7 @@
 layout: post
 title: "SIAM Certificate of Recognition for Manuel Baumann"
 attached_media:
-      - url: "{{ site.baseurl }}/images/2017-05-31-certificate_of_recognition.JPG"
+      - url: "{{ site.baseurl }}/images/2017-05-31-certificate_of_recognition.jpg"
         type: image
         thumb: "{{ site.baseurl }}/images/2017-05-31-certificate_of_recognition-thumb.jpg"
 ---
