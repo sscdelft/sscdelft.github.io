@@ -3,6 +3,22 @@ layout: post
 title: "Student Mathematical Modelling in Medicine day 2017"
 redirect_from: "/mmim17/"
 discontinued: true
+attached_media:
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob.jpg"
+        type: image
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob-thumb.jpg"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/computer.jpg"
+        type: image
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/computer-thumb.jpg"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/lunch.jpg"
+        type: image
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/lunch-thumb.jpg"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/afternoon_crowd.jpg"
+        type: image
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/afternoon_crowd-thumb.jpg"
+      - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/drinks.jpg"
+        type: image
+        thumb: "{{ site.baseurl }}/images/2017-05-31-MMIM/drinks-thumb.jpg"
 ---
 
 The SIAM Student Chapter at [TU Delft] is organizing a **Mathematical Modelling in Medicine Day** which is going to take place on 31st of May 2017.
