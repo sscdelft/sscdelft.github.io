@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Annual BBQ"
+title: "SIAM Certificate of Recognition for Manuel Baumann"
 attached_media:
       - url: "{{ site.baseurl }}/images/2017-05-31-annual_bbq.jpg"
         type: image
