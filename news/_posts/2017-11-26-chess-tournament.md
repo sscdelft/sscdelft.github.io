@@ -4,8 +4,9 @@ title: "Chess Tournament"
 ---
 
 On **Thursday 7th December**, we are having our annual **Chess Tournament**. 
-Our winner of previous year, Prof. Martin, will be there defending his title.
-Everyone is welcome to join and fight for the title (and the price) this year!! 
+Our winner of previous year, Reinaldo, will be there defending his title.
+Everyone is welcome to join and fight for the title (and the price) this year!!
+The winner will have the opportunity to play against Prof. Martin!
 Drinks and snacks will be provided. 
 
 If you want to join, please add your name to the [chess doodle].
