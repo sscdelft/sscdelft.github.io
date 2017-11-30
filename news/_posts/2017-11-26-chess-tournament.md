@@ -10,7 +10,7 @@ The winner will have the opportunity to play against Prof. Martin!
 Drinks and snacks will be provided. 
 
 If you want to join, please add your name to the [chess doodle].
-The location is Timmanzaal (LB01.170), and it will start at 17:30 hrs.
+The location is Snijderszaal  (LB01.010), and it will start at 17:30 hrs.
 If you are not sure if you want to join or if you want to practice or even to learn how to play, 
 Reinaldo also prepared a  **baNaNa talk/practice on chess**, on **Thursday 30th November**. The talk will take place in room LB. 1.210, 17 hrs.
 We hope to see you all in the lecture and in the tournament!!
