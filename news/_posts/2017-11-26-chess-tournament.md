@@ -18,5 +18,8 @@ We hope to see you all in the lecture and in the tournament!!
 PS. Don't forget our **NEW BOARD** interest lunch meeting on **Wednesday November 29th** at 12.00 in meetingroom 1.4 of EWI (LB 01.210).
 Please let us know if you're coming by filling in the [board interest doodle]
 
+We would like to thank the [Delftsche SchaakClub] for lending us the chess boards.
+
 [chess doodle]:https://doodle.com/poll/4pgafys2535anf6i
 [board interest doodle]:https://doodle.com/poll/99rdrnveeis4xs9r
+[Delftsche SchaakClub]:http://www.delftseschaaksite.nl/dsc/
