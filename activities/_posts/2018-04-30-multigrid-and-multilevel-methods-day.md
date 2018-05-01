@@ -9,7 +9,7 @@ attached_media:
         thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/todo.png"
 ---
 
-The SIAM Student Chapter at [TU Delft] is organizing a **Multigrid and Multilevel Methods Workshop Day** which is going to take place on 31st of May 2018.
+The SIAM Student Chapter at [TU Delft] is organizing a **Multigrid and Multilevel Methods Workshop Day** which is going to take place on 30th of May 2018.
 
 
 List of talks forthcoming
