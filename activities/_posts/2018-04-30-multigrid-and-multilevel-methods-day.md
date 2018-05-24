@@ -12,7 +12,7 @@ attached_media:
 The SIAM Student Chapter at [TU Delft] is organizing a **Multigrid and Multilevel Methods Workshop Day** which is going to take place on 30th of May 2018.
 
 
-List of talks forthcoming
+The list of talks can be found [here].
 
 The workshopday will be held at:
 
@@ -20,5 +20,6 @@ Address: |Faculteit Elektrotechniek, Wiskunde en Informatica. Van der Poelzaal (
          |Mekelweg 4, 2628 CD  Delft, The Netherlands. (How to get [there])
 
 [mail sscdelft]: mailto:SIAMSC-EWI@tudelft.nl
+[here]: {{ site.baseurl }}/images/multigrid_program.pdf
 [there]: http://www.ewi.tudelft.nl/en/the-faculty/contact/
 [TU Delft]: http://tudelft.nl/
