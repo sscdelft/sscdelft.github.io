@@ -2,11 +2,38 @@
 layout: post
 title: "Multigrid and Multilevel Methods"
 redirect_from: "/mmm18/"
-discontinued: false
+discontinued: true
 attached_media:
-      - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/todo.png"
-        type: image
-        thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/todo.png"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/todo.png"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/todo.png"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_102448.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_102448_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_114219.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_114219_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_114246.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_114246_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_115123.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_115123_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_124804.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_124804_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_124852.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_124852_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_125707.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_125707_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_125731.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_125731_tn.jpg"
+  - url: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_153026.jpg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2018-04-30-multigrid-and-multilevel-methods-day/20180530_153026_tn.jpg"
 ---
 
 The SIAM Student Chapter at [TU Delft] is organizing a **Multigrid and Multilevel Methods Workshop Day** which is going to take place on 30th of May 2018.
