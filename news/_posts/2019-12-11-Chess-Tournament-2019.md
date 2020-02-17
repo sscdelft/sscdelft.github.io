@@ -5,12 +5,6 @@ attached_media:
            - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-04.jpg"
              type: image
              thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-04jpg"
-           - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01.jpg"
-             type: image
-             thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01jpg"
-           - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-02.jpg"
-             type: image
-             thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-02jpg"
            - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-03.jpg"
              type: image
              thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-03jpg"
