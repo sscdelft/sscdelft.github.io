@@ -5,9 +5,6 @@ attached_media:
            - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01.jpg"
              type: image
              thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01-thumb.jpg"
-           - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-03.jpg"
-             type: image
-             thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-03jpg"
 ---
 
 We had our annual chess tournament on **11 December 2019** at the Senaatzaal in EWI. The tournament was won by Drs. Peter Van Nieuwenhuizen who was also the winner of the previous edition of this tournament.
