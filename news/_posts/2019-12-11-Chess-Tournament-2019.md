@@ -2,9 +2,9 @@
 layout: post
 title: "Drs. Peter wins the chess tournament again"
 attached_media:
-           - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-04.jpg"
+           - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01.jpg"
              type: image
-             thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-04jpg"
+             thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01-thumb.jpg"
            - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-03.jpg"
              type: image
              thumb: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-03jpg"
