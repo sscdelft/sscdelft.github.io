@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Social events
+title: Social vents
 navigation: 60
 ---
 
