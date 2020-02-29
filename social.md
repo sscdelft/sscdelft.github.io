@@ -6,6 +6,12 @@ navigation: 60
 
 Informal meetings are also an important part of the SIAM student chapters. During these meetings, members can know each other and meet people from other departments. Social events such as M=O(V+I^E) Night, Summer BBQ and other activities are organized regularly every year. 
 
+M=O(V+I^E) Night
+===
+
+![SIAM Student Chapter movie night]({{ site.baseurl }}/images/MovieNight.png)
+
+
 Chess tournament
 ===
 
