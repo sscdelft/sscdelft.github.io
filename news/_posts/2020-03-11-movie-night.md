@@ -13,7 +13,7 @@ Location: Will be conveyed in the subsequent E-mail.
 Please fill in the [doodle] form to let us know if you are joining!
 Hope to see you there!
 
-Haven't join us yet? Send us an email now: [SIAMSC-EWI@tudelft.nl].
+Haven't joined us yet? Send us an email now: [SIAMSC-EWI@tudelft.nl].
 
 [doodle]: https://doodle.com/poll/thypw54h7vmf2m7s
 [SIAMSC-EWI@tudelft.nl]: mailto:SIAMSC-EWI@tudelft.nl
