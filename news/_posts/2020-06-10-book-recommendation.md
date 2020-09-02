@@ -14,6 +14,6 @@ If you have any such book/movie that you want to share, please don't hesitate to
 We hope you will enjoy the book and all stay healthy.
 
 
-Any movie you want to share with us or haven't joined us yet? Send us an email now: [SIAMSC-EWI@tudelft.nl].
+Any movie or book you want to share with us or haven't joined us yet? Send us an email now: [SIAMSC-EWI@tudelft.nl].
 
 [SIAMSC-EWI@tudelft.nl]: mailto:SIAMSC-EWI@tudelft.nl
