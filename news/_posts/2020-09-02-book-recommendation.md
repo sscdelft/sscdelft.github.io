@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Miracles of the Namiya General Store by Keigo Higashino"
+title: "Book Recommendation: The Miracles of the Namiya General Store by Keigo Higashino"
 ---
 Do you have any worries or concerns? Do you want to consult someone to get advice but you only want to do it anonymously? Then I guess you are looking for the Namiya General Store :P
 
