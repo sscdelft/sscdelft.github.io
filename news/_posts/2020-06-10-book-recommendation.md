@@ -9,7 +9,6 @@ Stephan Hawking, a theoretical physicist, explains highly complex aspects of our
 
 If binge-watching 'Big Bang Theory' ever generated curiosity in you about understanding Sheldon, Here is a great chance for you 😎
 
-If you have any such book/movie that you want to share, please don't hesitate to let us know.
 
 We hope you will enjoy the book and all stay healthy.
 
