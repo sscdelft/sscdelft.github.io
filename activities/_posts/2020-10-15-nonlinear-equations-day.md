@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Multigrid and Multilevel Methods"
+title: "Non-Linear Equations Day 2020"
 redirect_from: "/mmm18/"
 discontinued: true
 ---
