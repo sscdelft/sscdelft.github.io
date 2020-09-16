@@ -5,7 +5,7 @@ redirect_from: "/mmm18/"
 discontinued: true
 ---
 
-The SIAM Student Chapter at [TU Delft] is organizing a **Non-Linear Equations Workshop Day** which is going to take place on 15 October. However, due to the pandemic of COVID-19, we will organize it **online via Zoom** from 1030 to 1600.
+The SIAM Student Chapter at [TU Delft] is organizing a **Non-Linear Equations Workshop Day** which is going to take place on 15 October. However, due to the pandemic of COVID-19, we will organize it **online via Zoom from 1030 to 1545**.
 
 
 There will be 3 minisymposiums and 1 BaNaNa Talk during the workshop day, in which we will have the presentations regarding non-linear equations in **finance, power flow, combustions** and **G+smo**. 
