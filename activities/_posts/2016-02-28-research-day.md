@@ -14,9 +14,12 @@ below give you more information about the past research days.
 * [Mathematical Modeling in Medicine day 2017]
 * [Multigrid and Multilevel Methods day 2018]
 * [Numerical Optimization Day 2019]
+* [Non-Linear Equations Day 2020]
 
 [Krylov Day 2015]: {{ site.baseurl }}/activities/2015/02/02/krylov-day.html
 [Computational Finance day 2016]: {{ site.baseurl }}/activities/2016/03/07/computational-finance-day.html
 [Mathematical Modeling in Medicine day 2017]: {{ site.baseurl }}/activities/2017/03/31/mathematical-modelling-in-medicine-day.html
 [Multigrid and Multilevel Methods day 2018]: {{ site.baseurl }}/activities/2018/04/30/multigrid-and-multilevel-methods-day.html
 [Numerical Optimization Day 2019]: {{ site.baseurl }}/activities/2019/05/09/numerical-optimization-day.html
+[Non-Linear Equations Day 2020]: {{ site.baseurl }}/activities/2020/10/15/nonlinear-equations-day.html
+
