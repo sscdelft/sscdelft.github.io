@@ -20,7 +20,7 @@ Here comes the program of the workshop day:
 |13:45 - 14:10 | Non-Linear Equations in Combustions: [Rishikesh Sampat]
 |14:10 - 14:25 | Coffee Break
 |14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. J.L. Rueda Torres]
-|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr. Balkomua, Sereeter]
+|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr. Baljinyam Sereeter]
 |15:35 - 15:45 | Ending 
 
 One week before the workshop day, we will upload the title and the abstract of the talk. Please pay attention to our email and news on the website. We are looking forward to seeing you virtually at our event!
@@ -31,7 +31,7 @@ Haven't join us? Send an email with your name and your research interest to us: 
 
 [SIAM-SC TUDelft]: mailto:SIAMSC-EWI@tudelft.nl
 
-[Prof C.W. Oosterlee]: https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis/people/cw-oosterlee/
+[Prof.dr.ir. C.W. Oosterlee]: https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis/people/cw-oosterlee/
 [Boris Boonstra]: https://nl.linkedin.com/in/boris-boonstra-4b2901146?challengeId=AQHXZD4yjB0yLwAAAXSW-Qw7fx1IaBcLc4JGVp8wqzY7HIBg8PC1XcB6TBMPX11eGDWOAD476kgapfOi0qSDln5FDqiApOCjmA&submissionId=15ee3d9b-a944-3516-4e9b-94fbb20e752c
 [H.M. Verhelst]: https://www.tudelft.nl/staff/h.m.verhelst/?no_cache=1&cHash=010e31a1c84cbf720ae7005f6faff9d4
 [Dr. Benedicte Cuenot]: http://www.cerfacs.fr/~cuenot/
