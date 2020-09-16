@@ -20,7 +20,7 @@ Here comes the program of the workshop day:
 |13:45 - 14:10 | Non-Linear Equations in Combustions: [Rishikesh Sampat]
 |14:10 - 14:25 | Coffee Break
 |14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. J.L. Rueda Torres]
-|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr. Baljinyam Sereeter]
+|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. Baljinyam Sereeter]
 |15:35 - 15:45 | Ending 
 
 One week before the workshop day, we will upload the title and the abstract of the talk. Please pay attention to our email and news on the website. We are looking forward to seeing you virtually at our event!
@@ -37,6 +37,6 @@ Haven't join us? Send an email with your name and your research interest to us: 
 [Dr. Benedicte Cuenot]: http://www.cerfacs.fr/~cuenot/
 [Rishikesh Sampat]:https://nl.linkedin.com/in/rishikesh-sampat-a8b56462/de
 [Dr.ir. J.L. Rueda Torres]: https://www.tudelft.nl/staff/j.l.ruedatorres/
-[Dr. Baljinyam Sereeter]: https://nl.linkedin.com/in/baljinnyams
+[Dr.ir. Baljinyam Sereeter]: https://nl.linkedin.com/in/baljinnyams
 
 [TU Delft]: http://tudelft.nl/
