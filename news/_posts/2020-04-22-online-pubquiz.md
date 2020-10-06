@@ -4,7 +4,7 @@ title: "First time online pub quiz"
 attached_media:
            - url: "{{ site.baseurl }}/images/2020-04-22-online-pubquiz/2020-04-22_online_pub_quiz.png"
              type: image
-             thumb: "{{ site.baseurl }}/images/22020-04-22-online-pubquiz/2020-04-22_pubquiz_team_1.jpeg"
+             thumb: "{{ site.baseurl }}/images/2020-04-22-online-pubquiz/2020-04-22_pubquiz_team_1.jpeg"
            - url: "{{ site.baseurl }}/images/2020-04-22-online-pubquiz/2020-04-22_pubquiz_team_2.jpeg"
              type: image
              thumb: "{{ site.baseurl }}/images/2020-04-22-online-pubquiz/2020-04-22_online_pub_quiz.png"
