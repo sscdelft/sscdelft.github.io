@@ -2,7 +2,7 @@
 layout: post
 title: "Non-Linear Equations Day 2020"
 redirect_from: "/mmm18/"
-discontinued: false
+discontinued: true
 ---
 
 The SIAM Student Chapter at [TU Delft] is organizing a **Non-Linear Equations Workshop Day** which is going to take place on 15 October. However, due to the pandemic of COVID-19, we will organize it **online via Zoom from 1030 to 1545**.
@@ -23,7 +23,7 @@ Here comes the program of the workshop day:
 |14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. B. Sereeter]
 |15:35 - 15:45 | End
 
-One week before the workshop day, we will upload the title and the abstract of the talk. Please pay attention to our email and news on the website. We are looking forward to seeing you virtually at our event!
+The abstract of all the talks can be found [here]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Abstract_book.pdf). Please pay attention to our email and news on the website. We are looking forward to seeing you virtually at our event!
 
 
 Haven't join us? Send an email with your name and your research interest to us: SIAMSC-EWI@tudelft.nl.
