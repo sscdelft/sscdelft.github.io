@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First time online pub quiz"
+title: "10 Days Countdown of Workshop Day 2020 "
 attached_media:
            - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Poster_workshopday.jpeg"
              type: image
