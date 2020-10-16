@@ -4,9 +4,6 @@ title: "Non-Linear Equations Day 2020"
 redirect_from: "/mmm18/"
 discontinued: true
 attached_media:
-  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_1.jpeg"
-    type: image
-    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_1.jpeg"
   - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_2.jpeg"
     type: image
     thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_2.jpeg"
