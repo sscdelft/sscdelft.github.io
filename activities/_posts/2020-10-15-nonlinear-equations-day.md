@@ -3,6 +3,31 @@ layout: post
 title: "Non-Linear Equations Day 2020"
 redirect_from: "/mmm18/"
 discontinued: true
+attached_media:
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_1.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_1.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_2.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_2.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_5.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_5.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_8.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_8.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_12.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_12.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_14.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_14.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_15.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_15.jpeg"
+  - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_18.jpeg"
+    type: image
+    thumb: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Screenshot_18.jpeg"
 ---
 
 The SIAM Student Chapter at [TU Delft] is organizing a **Non-Linear Equations Workshop Day** which took place on 15 October. However, due to the pandemic of COVID-19, we will organize it **online via Zoom from 1030 to 1600**. We would like to thank all the speakers and attendants.
@@ -12,7 +37,7 @@ There were 3 minisymposiums and 1 BaNaNa Talk during the workshop day, in which 
 
 Here comes the program of the workshop day:
 
-|10:30 - 10:40 | Opening and Introduction to [SIAM-SC TUDelft]
+|10:30 - 10:40 | Opening and Introduction to [SIAM-SC TUDelft] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Presentation_Opening.pdf)
 |10:40 - 11:25 | Non-Linear Equations in Finance: [Prof.dr.ir. C.W. Oosterlee] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Kees.pdf)
 |11:25 - 11:50 | Non-Linear Equations in Finance: [B. Boonstra] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Boris.pdf)
 |11:50 - 12:20 | BaNaNa Talk: [H.M. Verhelst] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Hugo.pdf)
@@ -21,7 +46,7 @@ Here comes the program of the workshop day:
 |14:10 - 14:25 | Coffee Break
 |14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. J.L. Rueda Torres] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Jose.pdf)
 |14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. B. Sereeter] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Baljaa.pdf)
-|15:35 - 15:45 | End
+|15:35 - 15:45 | End [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Presentation_Ending.pdf)
 
 The abstract of all the talks can be found [here]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Abstract_book.pdf). Please pay attention to our email and news on the website. We are looking forward to seeing you virtually at our event!
 
