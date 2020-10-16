@@ -37,16 +37,16 @@ There were 3 minisymposiums and 1 BaNaNa Talk during the workshop day, in which 
 
 Here comes the program of the workshop day:
 
-|10:30 - 10:40 | Opening and Introduction to [SIAM-SC TUDelft] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Presentation_Opening.pdf)
-|10:40 - 11:25 | Non-Linear Equations in Finance: [Prof.dr.ir. C.W. Oosterlee] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Kees.pdf)
-|11:25 - 11:50 | Non-Linear Equations in Finance: [B. Boonstra] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Boris.pdf)
+|10:30 - 10:40 | Opening and Introduction to [SIAM-SC TUDelft] ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Presentation_Opening.pdf)
+|10:40 - 11:25 | Non-Linear Equations in Finance: [Prof.dr.ir. C.W. Oosterlee] (https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis/people/cw-oosterlee/) ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Kees.pdf)
+|11:25 - 11:50 | Non-Linear Equations in Finance: [B. Boonstra] ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Boris.pdf)
 |11:50 - 12:20 | BaNaNa Talk: [H.M. Verhelst] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Hugo.pdf)
 |12:20 - 13:00 | Non-Linear Equations in Combustions: [Dr. B. Cuenot]
-|13:45 - 14:10 | Non-Linear Equations in Combustions: [R. Sampat] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Rishikesh.pdf)
+|13:45 - 14:10 | Non-Linear Equations in Combustions: [R. Sampat] ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Rishikesh.pdf)
 |14:10 - 14:25 | Coffee Break
-|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. J.L. Rueda Torres] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Jose.pdf)
-|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. B. Sereeter] [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Baljaa.pdf)
-|15:35 - 15:45 | End [Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Presentation_Ending.pdf)
+|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. J.L. Rueda Torres] ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Jose.pdf)
+|14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. B. Sereeter] ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Baljaa.pdf)
+|15:35 - 15:45 | End ([Slides])({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Presentation_Ending.pdf)
 
 The abstract of all the talks can be found [here]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Abstract_book.pdf). Please pay attention to our email and news on the website. We are looking forward to seeing you virtually at our event!
 
