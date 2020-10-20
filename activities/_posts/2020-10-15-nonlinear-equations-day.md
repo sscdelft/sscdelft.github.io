@@ -38,7 +38,7 @@ Here comes the program of the workshop day:
 |10:40 - 11:25 | Non-Linear Equations in Finance: [Prof.dr.ir. C.W. Oosterlee]  ([Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Kees.pdf))
 |11:25 - 11:50 | Non-Linear Equations in Finance: [B. Boonstra] ([Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Boris.pdf))
 |11:50 - 12:20 | BaNaNa Talk: [H.M. Verhelst] ([Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Hugo.pdf))
-|12:20 - 13:00 | Non-Linear Equations in Combustions: [Dr. B. Cuenot]
+|12:20 - 13:00 | Non-Linear Equations in Combustions: [Dr. B. Cuenot] ([Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Benedicte_compressed.pdf))
 |13:45 - 14:10 | Non-Linear Equations in Combustions: [R. Sampat] ([Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Rishikesh.pdf))
 |14:10 - 14:25 | Coffee Break
 |14:25 - 15:10 | Non-Linear Equations in Power Flow: [Dr.ir. J.L. Rueda Torres] ([Slides]({{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Slides_Jose.pdf))
