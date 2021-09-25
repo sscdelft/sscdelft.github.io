@@ -11,9 +11,7 @@ In 21st century, applied mathematics is pivotal in many of the industries. To di
 
 
 
-Are you interested to enroll for this exciting and informative event ? Please sign up in the form below, 
-
-https://forms.gle/scZpR2ZXFEbxC1Ns9
+Are you interested to enroll for this exciting and informative event ? Please sign up in the [Googleform]. 
 
 Looking forward to seeing you all.
 
@@ -21,3 +19,4 @@ Looking forward to seeing you all.
 [Vortech]: https://www.vortech.nl/en/
 [ASML]: https://www.asml.com/en
 [Rabobank]: https://www.rabobank.nl/particulieren/
+[Googleform]: https://forms.gle/scZpR2ZXFEbxC1Ns9
