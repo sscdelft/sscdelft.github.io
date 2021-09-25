@@ -16,3 +16,8 @@ Are you interested to enroll for this exciting and informative event ? Please si
 https://forms.gle/scZpR2ZXFEbxC1Ns9
 
 Looking forward to seeing you all.
+
+
+[Vortech]: https://www.vortech.nl/en/
+[ASML]: https://www.asml.com/en
+[Rabobank]: https://www.rabobank.nl/particulieren/
