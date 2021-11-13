@@ -23,9 +23,9 @@ Are you interested to enroll for this exciting and informative event ? Please si
 Looking forward to seeing you all.
 
 [Prof.dr.ir.Kees Vuik]:http://ta.twi.tudelft.nl/users/vuik/
-[Miguel Bessa]: https://mabessa.github.io/
+[Dr.Miguel Bessa]: https://mabessa.github.io/
 [Jousef Mourad]: https://www.linkedin.com/in/jousefmurad/
 [Sebastiano Grazzi]: http://homepage.tudelft.nl/4e8g9/
-[Joris Bierkens]: https://diamweb.ewi.tudelft.nl/~joris/
+[Dr.Joris Bierkens]: https://diamweb.ewi.tudelft.nl/~joris/
 [youtube]: https://www.youtube.com/channel/UCNm2TzhsV5wGlFIAcpCx9hQ
 [Googleform]: https://docs.google.com/forms/d/e/1FAIpQLSd7bMxs_gIQhAnkdovDdi_tUhnTMeeqHuuxyczn1NzD7zzqng/viewform?usp=sf_link
