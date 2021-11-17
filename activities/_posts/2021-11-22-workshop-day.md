@@ -28,4 +28,4 @@ Looking forward to seeing you all.
 [Dr.ir.Joris Bierkens]: https://diamweb.ewi.tudelft.nl/~joris/
 [linkedin]: https://www.linkedin.com/in/jousefmurad/
 [Googleform]: https://docs.google.com/forms/d/e/1FAIpQLSd7bMxs_gIQhAnkdovDdi_tUhnTMeeqHuuxyczn1NzD7zzqng/viewform?usp=sf_link
-https://www.linkedin.com/in/jousefmurad/
+
