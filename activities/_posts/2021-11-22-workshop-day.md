@@ -10,7 +10,7 @@ In this century, data science and machine learning form a part and parcel of eve
 |10h40 - 10h45|: Break
 |10h45 - 11h45|: Julia workshop by [Sebastiano Grazzi]
 |11h45 - 12h45|: Lunch
-|12h45 - 13h45|: Engineering, design and optimization with ML by [Jousef Mourad] 
+|12h45 - 13h45|: Engineering, design and optimization with ML by [Jousef Murad] 
 |13h45 - 13h50|: Break
 |13h50 - 14h50|: Statistical learning by [Dr.ir.Joris Bierkens]
 |14h50 - 15h00|: Closure by [Prof.dr.ir.Kees Vuik]
@@ -23,7 +23,7 @@ Looking forward to seeing you all.
 
 [Prof.dr.ir.Kees Vuik]:http://ta.twi.tudelft.nl/users/vuik/
 [Dr.Miguel Bessa]: https://mabessa.github.io/
-[Jousef Mourad]: https://www.youtube.com/channel/UCNm2TzhsV5wGlFIAcpCx9hQ
+[Jousef Murad]: https://www.youtube.com/channel/UCNm2TzhsV5wGlFIAcpCx9hQ
 [Sebastiano Grazzi]: http://homepage.tudelft.nl/4e8g9/
 [Dr.ir.Joris Bierkens]: https://diamweb.ewi.tudelft.nl/~joris/
 [linkedin]: https://www.linkedin.com/in/jousefmurad/
