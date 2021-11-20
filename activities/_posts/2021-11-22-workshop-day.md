@@ -6,13 +6,13 @@ title: "Workshop day"
 In this century, data science and machine learning form a part and parcel of every engineering sector. To discover their role and get introduced to cutting edge research about machine laerning and data science we at SIAM student chapter of TU Delft is organizing the workshop day event on **22-November-2021**. In this workshop day event, distuinguished speakers from TU Delft and companies will elaborate on their research work. The program of the event is,
 
 |09h30 - 09h40|: Introduction by SIAM student chapter
-|09h40 - 10h40|: Machine learning advances in CSM by [Dr.Miguel Bessa]
+|09h40 - 10h40|: Machine learning advances for CSM by [Dr.Miguel Bessa]
 |10h40 - 10h45|: Break
-|10h45 - 11h45|: Julia workshop by [Sebastiano Grazzi]
+|10h45 - 11h45|: Julia programming workshop by [Sebastiano Grazzi]
 |11h45 - 12h45|: Lunch
-|12h45 - 13h45|: Engineering, design and optimization with ML by [Jousef Murad] 
+|12h45 - 13h45|: EApplication of Machine Learning & CFD - Flow in an ICE by [Jousef Murad] 
 |13h45 - 13h50|: Break
-|13h50 - 14h50|: Statistical learning by [Dr.ir.Joris Bierkens]
+|13h50 - 14h50|: Bayesian learning by [Dr.ir.Joris Bierkens]
 |14h50 - 15h00|: Closure by [Prof.dr.ir.Kees Vuik]
 
 
