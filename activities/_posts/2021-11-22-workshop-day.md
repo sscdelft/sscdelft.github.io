@@ -10,7 +10,7 @@ In this century, data science and machine learning form a part and parcel of eve
 |10h40 - 10h45|: Break
 |10h45 - 11h45|: Julia programming workshop by [Sebastiano Grazzi]
 |11h45 - 12h45|: Lunch
-|12h45 - 13h45|: EApplication of Machine Learning & CFD - Flow in an ICE by [Jousef Murad] 
+|12h45 - 13h45|: Application of ML & CFD - Flow in an ICE by [Jousef Murad] 
 |13h45 - 13h50|: Break
 |13h50 - 14h50|: Bayesian learning by [Dr.ir.Joris Bierkens]
 |14h50 - 15h00|: Closure by [Prof.dr.ir.Kees Vuik]
