@@ -1,0 +1,53 @@
+---
+layout: default
+title: "2022-2023"
+navigation: 30
+---
+
+<div class="board-member">
+  <div class="summary">
+    <img src="{{ site.baseurl }}/images/board/avatar_buuvan.JPG"/>
+    <p class="name">Buu-Van</p>
+    <p class="function">President and Webmaster</p>
+    <p class="contact">
+      <a href="mailto:b.nguyen@tudelft.nl"><span class="fa fa-envelope"></span></a>.
+      <a href=""><span class="fa fa-home"></span></a>
+    </p>
+  </div>
+  <p>
+    Hello, I am a PhD student.
+  </p>
+  <div class="clear"></div>
+</div>
+
+<div class="board-member">
+  <div class="summary">
+    <img src="{{ site.baseurl }}/images/board/avatar_hasti.JPG"/>
+    <p class="name">Hasti Garjani</p>
+    <p class="function">Vice President and Treasurer</p>
+    <p class="contact">
+      <a href="mailto:h.garjani@tudelft.nl"><span class="fa fa-envelope"></span></a>
+      <a href=""><span class="fa fa-home"></span></a>
+    </p>
+  </div>
+  <p>
+    Hello, I am a PhD student.
+  </p>
+  <div class="clear"></div>
+</div>
+
+<div class="board-member">
+  <div class="summary">
+    <img src="{{ site.baseurl }}/images/board/avatar_haris.jpeg"/>
+    <p class="name">Haris Shahzad</p>
+    <p class="function">Secretary</p>
+    <p class="contact">
+      <a href="mailto:h.shahzad.tudelft.nl"><span class="fa fa-envelope"></span></a>
+      <a href=""><span class="fa fa-home"></span></a>
+    </p>
+  </div>
+  <p>
+    Hello, I am a PhD student.
+  </p>
+  <div class="clear"></div>
+</div>
