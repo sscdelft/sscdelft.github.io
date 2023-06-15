@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SIAM Activity Group on Linear Algebra"
+discontinued: true
 ---
 
 Dear all,
