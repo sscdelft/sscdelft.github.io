@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Escher Excursion"
+discontinued: true
 ---
 
 Dear members,
