@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Movie night on July 7th"
+discontinued: true
 ---
 
 Dear all,
