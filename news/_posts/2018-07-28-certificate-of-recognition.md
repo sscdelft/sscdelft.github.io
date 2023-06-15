@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SIAM Certificate of Recognition for Gabriela Diaz Cortes"
+discontinued: true
 attached_media:
       - url: "{{ site.baseurl }}/images/SIAM_Gaby_cropped.jpg"
         type: image
