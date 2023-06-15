@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "M=O(V+I^E) Recommendation: A.I. Artificial Intelligence (2001)"
+discontinued: true
 ---
 
 Today, the movie we want to recommend is **A.I. Artificial Intelligence (2001)**.
