@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kickoff meeting
-discontinued: true
+past: true
 attached_media:
   - url: "{{ site.baseurl }}/images/2014-09-19-kickoff-meeting/IMG_9630.jpg"
     type: image
