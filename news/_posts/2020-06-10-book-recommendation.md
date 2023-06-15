@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Book Recommendation: A Brief History of Time"
+discontinued: true
 ---
 We are sure that most of you are engaging yourself in reading more. Here is a recommendation of a book that will put you in thoughts about our Universe:
 **A Brief History of Time** by Stephan Hawking.
