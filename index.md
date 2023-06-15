@@ -28,5 +28,5 @@ Our faculty advisors are [Kees Vuik] and [Martin van Gijzen].
 
 [SIAM Student Chapters]: https://www.siam.org/students/chapters/
 [Kees Vuik]: https://ta.twi.tudelft.nl/users/vuik/
-[Martin van Gijzen]: https://ta.twi.tudelft.nl/nw/users/gijzen/](https://diamhomes.ewi.tudelft.nl/~mvangijzen/)
-[NA-EWI-TUD]: https://www.ewi.tudelft.nl/en/the-faculty/departments/applied-mathematics/numerical-analysis/](https://www.tudelft.nl/en/eemcs/the-faculty/departments/applied-mathematics/numerical-analysis)
+[Martin van Gijzen]: https://diamhomes.ewi.tudelft.nl/~mvangijzen/
+[NA-EWI-TUD]: https://www.tudelft.nl/en/eemcs/the-faculty/departments/applied-mathematics/numerical-analysis
