@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Online Pictionary on Wednesday 27 May"
+discontinued: true
 ---
 
 I hope you all are safe and healthy. 
