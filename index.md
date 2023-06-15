@@ -7,8 +7,8 @@ navigation: 00
 The SIAM Student Chapter Delft has been founded in 2014 by PhD students of the
 [Numerical Analysis section at TU Delft][NA-EWI-TUD].  Our Student Chapter is
 the first [division of SIAM][SIAM Student Chapters] in The Netherlands, and it is
-meant to bring together MSc and PhD students, postdocs and professors from all
-mathematically-oriented departments.  The Chapter organizes seminars, lectures
+meant to connect MSc and PhD students, postdocs and professors from all
+mathematically-oriented departments. The Chapter organises seminars, lectures
 (both on research and on software tools), company visits and social
 events.
 
