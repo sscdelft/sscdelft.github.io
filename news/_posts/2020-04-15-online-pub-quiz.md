@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Online Pub Quiz on Wednesday 22 April"
+discontinued: true
 ---
 
 We hope you are all doing well!
