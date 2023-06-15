@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "M=O(V+I^E) Night: Sneakers(1992) on 11 March"
+discontinued: true
 ---
 
 The next movie night will be on Wednesday 11 March, which is the first movie night of this year arranged by the new board members of this year!
