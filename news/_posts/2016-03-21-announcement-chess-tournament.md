@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chess tournament on March 31st"
+discontinued: true
 ---
 
 Dear all,
