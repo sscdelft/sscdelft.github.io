@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Movie night on March 13th"
+discontinued: true
 ---
 
 Dear all,

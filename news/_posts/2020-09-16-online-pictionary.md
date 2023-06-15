@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Online Pictionary on Wednesday 16 Sept 2020"
+discontinued: true
 ---
 
 After the first tryout of online Pictionary and receiving a lot of positive feedback, we have been encouraged to organize it again!

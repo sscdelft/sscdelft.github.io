@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "baNaNa talk on Python, Fortran and C"
+discontinued: true
 ---
 
 The final baNaNa lecture of 2014 was given at December 18.  Xiaozhou and Joost

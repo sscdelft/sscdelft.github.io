@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visit to Tata Steel"
+discontinued: true
 ---
 
 Dear all,

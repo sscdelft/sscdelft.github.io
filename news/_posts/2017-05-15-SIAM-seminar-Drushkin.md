@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Siam Seminar"
+discontinued: true
 ---
 Untangling nonlinearity in inverse scattering with data-driven reduced order models
 

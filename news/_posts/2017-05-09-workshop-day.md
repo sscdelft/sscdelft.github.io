@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "One-day workshop Mathematics in Medicine!"
+discontinued: true
 ---
 
 Dear all,

@@ -2,6 +2,7 @@
 layout: post
 title: "Annual BBQ (new date!)"
 cover: "{{ site.baseurl }}/images/covers/2015-05-30-update-bbq.jpg"
+discontinued: true
 ---
 
 We've changed the date of the annual Student Chapter BBQ to July 10, 2015, so

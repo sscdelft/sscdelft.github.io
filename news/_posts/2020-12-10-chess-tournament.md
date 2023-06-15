@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Martin won Online Chess Tournament 2020 " 
+title: "Martin won Online Chess Tournament 2020 "
+discontinued: true
 attached_media:
            - url: "{{ site.baseurl }}/images/2020-12-10-chess-tournament/2020-12-10-chess-tournament-1.jpeg"
              type: image

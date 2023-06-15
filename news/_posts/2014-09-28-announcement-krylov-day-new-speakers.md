@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Two more participants at Krylov Day"
+discontinued: true
 ---
 
 Hi all,

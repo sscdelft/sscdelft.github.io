@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Drs. Peter wins the chess tournament again"
+discontinued: true
 attached_media:
            - url: "{{ site.baseurl }}/images/2019-12-11-Chess-Tournament/2019-12-11-chess-01.jpg"
              type: image

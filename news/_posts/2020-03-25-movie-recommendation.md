@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "M=O(V+I^E) Recommendation: The Internet's Own Boy: The Story of Aaron Swartz (2014)"
+discontinued: true
 ---
 
 Due to the circumstance of corona virus, unfortunately, we are not able to organize the usual movie night. However, to keep the spirit up, we will recommend movies regularly. 

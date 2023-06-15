@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "baNaNa talk 'Scientific writing with Microsoft'"
+discontinued: true
 ---
 
 Dear all,

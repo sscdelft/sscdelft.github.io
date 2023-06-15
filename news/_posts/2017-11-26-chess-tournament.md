@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chess Tournament"
+discontinued: true
 ---
 
 On **Thursday 7th December**, we are having our annual **Chess Tournament**. 

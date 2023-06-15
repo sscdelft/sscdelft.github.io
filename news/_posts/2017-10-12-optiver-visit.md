@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Company visit Optiver"
+discontinued: true
 ---
 
 Dear SIAM Student Chapter members,

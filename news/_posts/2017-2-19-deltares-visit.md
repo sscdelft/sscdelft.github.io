@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Company visit Deltares"
+discontinued: true
 ---
 
 Dear SIAM member,

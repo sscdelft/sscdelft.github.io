@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First time online pub quiz"
+discontinued: true
 attached_media:
            - url: "{{ site.baseurl }}/images/2020-04-22-online-pubquiz/2020-04-22_online_pub_quiz.png"
              type: image

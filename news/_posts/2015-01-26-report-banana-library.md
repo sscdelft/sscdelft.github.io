@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "baNaNa talk 'Many ways to find your reference'"
+discontinued: true
 ---
 
 On January 22, Nicole Potters (library TU Delft) presented a baNaNa talk about

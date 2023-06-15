@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Workshop day in review"
+discontinued: true
 attached_media:
       - url: "{{ site.baseurl }}/images/2017-05-31-MMIM/morning_rob.JPG"
         type: image

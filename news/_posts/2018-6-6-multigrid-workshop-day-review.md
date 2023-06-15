@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Workshop day in review"
+discontinued: true
 ---
 
 On **May 30th**, we held our annual workshop day. This year it was on multigrid and multilevel methods.

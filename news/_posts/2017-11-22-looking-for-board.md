@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Looking for a new Board"
+discontinued: true
 ---
 Dear SIAM Student Chapter members,
 

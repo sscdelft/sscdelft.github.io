@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "M=O(V+I^E) Recommendation: The Imitation Game (2014) --- A movie about Alan Turing"           
+title: "M=O(V+I^E) Recommendation: The Imitation Game (2014) --- A movie about Alan Turing"
+discontinued: true
 ---
 
 Today, the movie we want to recommend was played before at our usual movie night. Personally, we still think, it is worth to watch again. Since without Alan Turing, I am afraid we would suffer much more during this "new normal life". 

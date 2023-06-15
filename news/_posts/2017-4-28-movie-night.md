@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The man who knew infinity"
+discontinued: true
 ---
 
 The next movie night is at Thursday May 11 at 6.00 PM at the Snijderszaal. We will watch the movie ‘The man who knew infinity’ about the life and academic career of the Indian mathematician Srinivasa Ramanujan. Free drinks and popcorn will be provided and there is a possibility to order food. 

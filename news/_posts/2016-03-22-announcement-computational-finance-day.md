@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Student Computational Finance Day"
+discontinued: true
 ---
 
 Dear all,

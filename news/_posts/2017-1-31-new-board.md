@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New board members!"
+discontinued: true
 ---
 
 Dear SIAM member,

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Paperhive on Dec 15th"
+discontinued: true
 ---
 
 Dear all,

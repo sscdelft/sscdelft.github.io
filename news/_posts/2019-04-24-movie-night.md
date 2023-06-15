@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Movie Night on April 24"
+discontinued: true
 attached_media:
       - url: ""
         type: 

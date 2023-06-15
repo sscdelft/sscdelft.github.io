@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Movie night at EWI"
+discontinued: true
 ---
 
 Hi all,

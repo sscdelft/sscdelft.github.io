@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Report Kickoff Meeting"
+discontinued: true
 cover: "{{ site.baseurl }}/images/2014-09-19-kickoff-meeting/cover.jpg"
 attached_media:
   - url: "{{ site.baseurl }}/images/2014-09-19-kickoff-meeting/IMG_9630.jpg"
