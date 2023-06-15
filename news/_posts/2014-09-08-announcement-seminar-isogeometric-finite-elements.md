@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Seminar: Isogeometric Finite Elements"
+discontinued: true
 ---
 
 Hi all,
