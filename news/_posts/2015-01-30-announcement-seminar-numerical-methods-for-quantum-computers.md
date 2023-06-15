@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Seminar Numerical Methods for Quantum Computers
+discontinued: true
 ---
 
 In the second semester of the academic year 2014/2015 we organise a seminar on
