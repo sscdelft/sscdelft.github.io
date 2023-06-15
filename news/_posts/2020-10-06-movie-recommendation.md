@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "M=O(V+I^E) Recommendation: 2001: A Space Odyssey (1968)"
+discontinued: true
 ---
 
 Today, the movie we want to recommend is **2001: A Space Odyssey (1968)**.
