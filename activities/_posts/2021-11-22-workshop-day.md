@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Workshop day"
+discontinued: true
 ---
 
 In this century, data science and machine learning form a part and parcel of every engineering sector. To discover their role and get introduced to cutting edge research about machine laerning and data science we at SIAM student chapter of TU Delft is organizing the workshop day event on **22-November-2021**. In this workshop day event, distuinguished speakers from TU Delft and companies will elaborate on their research work. The program of the event is,
