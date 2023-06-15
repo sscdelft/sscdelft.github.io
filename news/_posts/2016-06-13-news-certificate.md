@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SIAM Certificate of Recognition"
+discontinued: true
 cover: "{{ site.baseurl }}/images/2016-06-10-news-certificate/2016.jpg"
 attached_media:
   - url: "{{ site.baseurl }}/images/2016-06-10-news-certificate/2016.jpg"
