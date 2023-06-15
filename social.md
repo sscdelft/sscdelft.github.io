@@ -4,7 +4,7 @@ title: Social Events
 navigation: 60
 ---
 
-Informal meetings are also an important part of the SIAM student chapters. During these meetings, members can know each other and meet people from other departments. Social events such as M=O(V+I^E) Night, Summer BBQ and other activities are organized regularly every year. 
+Informal meetings play an important part in the SIAM student chapters as they are acessible for any member. During these meetings, members get to know each other and they have the opportunity to meet people from other departments. Social events such as M=O(V+I^E) Night, Summer BBQ and other activities are organized regularly every year. 
 
 M=O(V+I^E) Night
 ===
@@ -18,13 +18,13 @@ Chess tournament
 ![SIAM Student Chapter bowling night]({{ site.baseurl }}/images/Chess/IMG_1145.JPG)
 
 
-BBQ at Delft lake
+BBQ at Delftse Hout
 ===
 
 ![SIAM Student Chapter BBQ]({{ site.baseurl }}/images/2014-07-25-barbecue-delft-lake-1.jpg)
 
 
-Bowling event
+Bowling
 ===
 
 ![SIAM Student Chapter bowling night]({{ site.baseurl }}/images/bowling/IMG_20131024_190209.jpg)
