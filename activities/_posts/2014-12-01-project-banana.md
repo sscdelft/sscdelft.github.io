@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Project baNaNa
+discontinued: true
 ---
 
 The [Project baNaNa] is a self-organised seminar from the PhD students of the
