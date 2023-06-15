@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Optiver in review"
+discontinued: true
 attached_media:
       - url: "{{ site.baseurl }}/images/2017-11-3-visit-optiver.JPG"
         type: image
