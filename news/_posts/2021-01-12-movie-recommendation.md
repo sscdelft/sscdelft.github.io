@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "M=O(V+I^E) Recommendation: Good Will Hunting (1997)"           
+title: "M=O(V+I^E) Recommendation: Good Will Hunting (1997)"
+discontinued: true
 ---
 
 Wish you a happy and prosperous new year! The year was indeed a roller coaster ride for everyone. Unfortunately, we could meet only once for our usual Movie Night last year. However, as the new tradition, we would like to recommend you another movie to start a new year with some dramatic film of a genius mathematician. As quoted in the movie,
