@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Company day"
+discontinued: true
 ---
 
 In the 21st century, applied mathematics is pivotal in many industries. To discover the role of applied mathematics in different industries, SIAM student chapter of TU Delft is organizing the company day event on **19-October-2021**. In this company day event, different companies will elaborate on how applied mathematics can be helpful in their respective industries. The program of the company day event is,
