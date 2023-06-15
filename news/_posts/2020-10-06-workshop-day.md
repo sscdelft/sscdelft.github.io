@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "10 Days Countdown of Workshop Day 2020 "
+discontinued: true
 attached_media:
            - url: "{{ site.baseurl }}/images/2020-10-15-nonlinear-equations-day/Poster_workshopday.jpeg"
              type: image
