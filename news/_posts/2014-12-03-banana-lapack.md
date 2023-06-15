@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "baNaNa talk on BLAS and LAPACK"
+discontinued: true
 ---
 
 On November 27th, 2014, the second baNaNa lecture of this academic year took place.
